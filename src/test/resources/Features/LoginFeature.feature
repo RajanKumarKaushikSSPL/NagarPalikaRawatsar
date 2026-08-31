@@ -31,13 +31,13 @@ Scenario Outline: Successful Login With different Credentials DDT
  Examples:
  |user_name|password|
  |super_admin|12345987|
- #|superadmin|12345987|
- #|super_admin|123459878|
- #|superadmin|123459878|
- #|          |12345987|
- #|super_admin|       |
- #|          |       |
- #|          |123459878|
- #|superadmin|         |
+ |superadmin|12345987|
+ |super_admin|123459878|
+ |superadmin|123459878|
+ |          |12345987|
+ |super_admin|       |
+ |          |       |
+ |          |123459878|
+ |superadmin|         |
  
    

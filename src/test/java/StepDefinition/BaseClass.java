@@ -10,22 +10,26 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import PageObject.BOHDashBoardPage;
 import PageObject.DashBoardPage;
 import PageObject.LoginPage;
 import PageObject.WorkReportDashBoardPage;
 import Utilities.ReadConfig;
+import io.cucumber.java.Before;
 
 import org.apache.logging.log4j.*;
 
 public class BaseClass {
 	
 	public static WebDriver driver;
-	public LoginPage loginPg;
-	public DashBoardPage dashboardPg; 
-	public WorkReportDashBoardPage workreportdashboardPg;
-	public BOHDashBoardPage bohdashboardPg;
+	public static LoginPage loginPg;
+	public static DashBoardPage dashboardPg; 
+	public static WorkReportDashBoardPage workreportdashboardPg;
+	public static BOHDashBoardPage bohdashboardPg;
 	public static Logger log;
 	public ReadConfig readConfig;
 	
@@ -68,5 +72,5 @@ public class BaseClass {
 		
 		return targetFilePath;
 	}
-
+	
 }

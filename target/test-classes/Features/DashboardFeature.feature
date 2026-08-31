@@ -7,6 +7,11 @@ Background: Steps common for all dashboard feature
    And click on Login button
    Then User should be able to see "Dashboard" text
    When User clicks on dashboard menu
+   
+@Smoke
+Scenario:Check Dashboard menu contains both Work Report Dashboard and BOH Dashboard submenus
+Then User is able to see Work Report Dashboard submenu
+And User is able to see BOH Dashboard submenu  
 
 @Regression  
 Scenario: Search Work Report Dashboard Data

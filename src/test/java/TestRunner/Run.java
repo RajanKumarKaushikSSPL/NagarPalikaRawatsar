@@ -10,12 +10,14 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-features={".//src/test/resources/Features/LoginFeature.feature",".//src/test/resources/Features/DashboardFeature.feature"},
-//features=".//src/test/resources/Features/",		
+//features={".//src/test/resources/Features/LoginFeature.feature",".//src/test/resources/Features/DashboardFeature.feature"},
+//features={".//src/test/resources/Features/UDTaxSetUp.feature"},
+//features={".//src/test/resources/Features/UDTax.feature"},		
+features=".//src/test/resources/Features/",		
 glue="StepDefinition",
 dryRun=false,
 monochrome = true,
-tags="@Regression",
+//tags="@Smoke",
 //plugin= {"pretty","html:Reports/cucumber-reports/reports.html"}
 plugin={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 

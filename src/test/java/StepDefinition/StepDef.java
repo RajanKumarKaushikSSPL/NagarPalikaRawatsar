@@ -118,14 +118,13 @@ public class StepDef extends BaseClass {
 		log.info("Setup-DDT method executed..");
 	}
 	
-	
-	
 	@Given("User Launch Chrome Browser")
 	public void user_launch_chrome_browser() {
 	    loginPg=new LoginPage(driver);
 	    dashboardPg=new DashBoardPage(driver);
 	    workreportdashboardPg=new WorkReportDashBoardPage(driver);
 	    bohdashboardPg=new BOHDashBoardPage(driver);
+	    
 	    
 	    log.info("chrome browser launched");
 	}
@@ -147,6 +146,12 @@ public class StepDef extends BaseClass {
 	public void click_on_login_button() {
 		loginPg.clickOnLoginButton();
 		log.info("clicked on login button");
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
     /////////////////////////Login/////////////////////////////
@@ -292,6 +297,28 @@ public class StepDef extends BaseClass {
 			log.warn("user can not view report of BOH Dashboard");
 			Assert.assertTrue(false);
 		}
+    }
+    
+    @Then("User is able to see Work Report Dashboard submenu")
+    public void user_is_able_to_see_work_report_dashboard_submenu() {
+        if(dashboardPg.workReportDashboardSubmenuisdisplayed()) {
+        	log.info("user is able to see Work Report Dashboard submenu");
+        	Assert.assertTrue(true);
+        }else {
+        	log.warn("user is not able to see Work Report Dashboard submenu");
+        	Assert.assertTrue(false);
+        }
+    }
+
+    @Then("User is able to see BOH Dashboard submenu")
+    public void user_is_able_to_see_boh_dashboard_submenu() {
+        if(dashboardPg.bohDashboardSubmenuisdisplayed()) {
+        	log.info("user is able to see BOH Dashboard submenu");
+        	Assert.assertTrue(true);
+        }else {
+        	log.warn("user is not able to see BOH Dashboard submenu");
+        	Assert.assertTrue(false);
+        }
     }
     
     @After
