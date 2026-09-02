@@ -8,7 +8,7 @@ Background: Steps common for Login feature
 Scenario: Successful Login With Valid Credentials
    #Given User Launch Chrome Browser
    #When User opens URL "http://192.168.1.20:94/system/login/"
-   And User enters Username as "super_admin" and password as "12345987"
+   And User enters Username as "super_admin" and password as "12345"
    And click on Login button
    Then User should be able to see "Dashboard" text
    When User clicks on super admin profile
@@ -30,7 +30,7 @@ Scenario Outline: Successful Login With different Credentials DDT
    
  Examples:
  |user_name|password|
- |super_admin|12345987|
+ |super_admin|12345|
  |superadmin|12345987|
  |super_admin|123459878|
  |superadmin|123459878|

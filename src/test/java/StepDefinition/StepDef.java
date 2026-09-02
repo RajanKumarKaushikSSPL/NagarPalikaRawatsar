@@ -2,6 +2,8 @@ package StepDefinition;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -11,8 +13,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import PageObject.BOHDashBoardPage;
 import PageObject.DashBoardPage;
@@ -28,24 +33,62 @@ import io.cucumber.java.en.*;
 
 public class StepDef extends BaseClass {
 	
+	
+	Map<String, Object> prefs;
+	
 	@Before("@Smoke")
 	public void setup1() {
 		readConfig=new ReadConfig();
 		log=LogManager.getLogger("StepDef");
 	    String browser=readConfig.getBrowser();
-		
+	    
 		//launch browser
 		switch(browser.toLowerCase()) {
 		case "chrome":
-			driver=new ChromeDriver();
+			
+			ChromeOptions chromeoptions = new ChromeOptions();
+			prefs = new HashMap<>();
+
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			prefs.put("profile.password_manager_leak_detection", false);
+
+			chromeoptions.setExperimentalOption("prefs", prefs);
+			chromeoptions.addArguments("--password-store=basic");
+
+			driver = new ChromeDriver(chromeoptions);
+
+			//driver=new ChromeDriver();
 			break;
 	
 		case "msedge":
-			driver=new EdgeDriver();
+			EdgeOptions edgeoptions = new EdgeOptions();
+
+			prefs = new HashMap<>();
+
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			prefs.put("profile.password_manager_leak_detection", false);
+
+			edgeoptions.setExperimentalOption("prefs", prefs);
+			edgeoptions.addArguments("--password-store=basic");
+
+			driver = new EdgeDriver(edgeoptions);
+
+			//driver=new EdgeDriver();
 			break;
 		
 		case "firefox":
-			driver=new FirefoxDriver();
+			FirefoxOptions firefoxoptions = new FirefoxOptions();
+
+		    firefoxoptions.addPreference("credentials_enable_service", false);
+		    firefoxoptions.addPreference("profile.password_manager.enabled", false);
+		    firefoxoptions.addPreference("profile.password_manager_leak_detection", false);
+		    firefoxoptions.addPreference("signon.management.page.breach-alerts.enabled", false);
+
+		    driver = new FirefoxDriver(firefoxoptions);
+
+			//driver=new FirefoxDriver();
 			break;
 			
 	    default:
@@ -66,16 +109,51 @@ public class StepDef extends BaseClass {
 		
 		//launch browser
 		switch(browser.toLowerCase()) {
-		case "chrome":
-			driver=new ChromeDriver();
+case "chrome":
+			
+			ChromeOptions chromeoptions = new ChromeOptions();
+			prefs = new HashMap<>();
+
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			prefs.put("profile.password_manager_leak_detection", false);
+
+			chromeoptions.setExperimentalOption("prefs", prefs);
+			chromeoptions.addArguments("--password-store=basic");
+
+			driver = new ChromeDriver(chromeoptions);
+
+			//driver=new ChromeDriver();
 			break;
 	
 		case "msedge":
-			driver=new EdgeDriver();
+			EdgeOptions edgeoptions = new EdgeOptions();
+
+			prefs = new HashMap<>();
+
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			prefs.put("profile.password_manager_leak_detection", false);
+
+			edgeoptions.setExperimentalOption("prefs", prefs);
+			edgeoptions.addArguments("--password-store=basic");
+
+			driver = new EdgeDriver(edgeoptions);
+
+			//driver=new EdgeDriver();
 			break;
 		
 		case "firefox":
-			driver=new FirefoxDriver();
+			FirefoxOptions firefoxoptions = new FirefoxOptions();
+
+		    firefoxoptions.addPreference("credentials_enable_service", false);
+		    firefoxoptions.addPreference("profile.password_manager.enabled", false);
+		    firefoxoptions.addPreference("profile.password_manager_leak_detection", false);
+		    firefoxoptions.addPreference("signon.management.page.breach-alerts.enabled", false);
+
+		    driver = new FirefoxDriver(firefoxoptions);
+
+			//driver=new FirefoxDriver();
 			break;
 			
 	    default:
@@ -96,16 +174,51 @@ public class StepDef extends BaseClass {
 		
 		//launch browser
 		switch(browser.toLowerCase()) {
-		case "chrome":
-			driver=new ChromeDriver();
+case "chrome":
+			
+			ChromeOptions chromeoptions = new ChromeOptions();
+			prefs = new HashMap<>();
+
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			prefs.put("profile.password_manager_leak_detection", false);
+
+			chromeoptions.setExperimentalOption("prefs", prefs);
+			chromeoptions.addArguments("--password-store=basic");
+
+			driver = new ChromeDriver(chromeoptions);
+
+			//driver=new ChromeDriver();
 			break;
 	
 		case "msedge":
-			driver=new EdgeDriver();
+			EdgeOptions edgeoptions = new EdgeOptions();
+
+			prefs = new HashMap<>();
+
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			prefs.put("profile.password_manager_leak_detection", false);
+
+			edgeoptions.setExperimentalOption("prefs", prefs);
+			edgeoptions.addArguments("--password-store=basic");
+
+			driver = new EdgeDriver(edgeoptions);
+
+			//driver=new EdgeDriver();
 			break;
 		
 		case "firefox":
-			driver=new FirefoxDriver();
+			FirefoxOptions firefoxoptions = new FirefoxOptions();
+
+		    firefoxoptions.addPreference("credentials_enable_service", false);
+		    firefoxoptions.addPreference("profile.password_manager.enabled", false);
+		    firefoxoptions.addPreference("profile.password_manager_leak_detection", false);
+		    firefoxoptions.addPreference("signon.management.page.breach-alerts.enabled", false);
+
+		    driver = new FirefoxDriver(firefoxoptions);
+
+			//driver=new FirefoxDriver();
 			break;
 			
 	    default:

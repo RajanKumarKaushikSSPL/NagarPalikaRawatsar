@@ -17,7 +17,7 @@ features=".//src/test/resources/Features/",
 glue="StepDefinition",
 dryRun=false,
 monochrome = true,
-//tags="@Smoke",
+tags="@Smoke",
 //plugin= {"pretty","html:Reports/cucumber-reports/reports.html"}
 plugin={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 

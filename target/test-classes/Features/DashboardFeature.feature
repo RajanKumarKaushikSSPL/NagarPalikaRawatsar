@@ -3,7 +3,7 @@ Feature: Dashboard
 Background: Steps common for all dashboard feature
    Given User Launch Chrome Browser
    When User opens URL "http://192.168.1.20:94/system/login/"
-   And User enters Username as "super_admin" and password as "12345987"
+   And User enters Username as "super_admin" and password as "12345"
    And click on Login button
    Then User should be able to see "Dashboard" text
    When User clicks on dashboard menu
