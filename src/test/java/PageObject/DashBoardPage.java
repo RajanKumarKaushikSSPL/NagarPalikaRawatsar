@@ -1,5 +1,6 @@
 package PageObject;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -110,6 +111,100 @@ WebDriver ldriver;
 	
 	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='DN Notice Distribution'])[2]")
 	WebElement DNNoticeDistributionSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='UD Tax Report'])[2]")
+	WebElement UDTaxReportMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Counter Report'])[2]")
+	WebElement CounterReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='TC Collection Summary'])[2]")
+	WebElement TCCollectionSummarySubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='DCB Report'])[2]")
+	WebElement DCBReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='SAF Report'])[2]")
+	WebElement SAFReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Zone and Ward Wise Collection Report'])[2]")
+	WebElement ZoneAndWardWiseCollectionReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Payment Mode Wise Collection'])[2]")
+	WebElement PaymentModeWiseCollectionSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='ULB Report'])[2]")
+	WebElement ULBReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Transaction Deactivate Report'])[2]")
+	WebElement TransactionDeactivateReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='ALL Module TC Summary'])[2]")
+	WebElement ALLModuleTCSummarySubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Cheque Bounce Report'])[2]")
+	WebElement ChequeBounceReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Print All Payment Reciept'])[2]")
+	WebElement PrintAllPaymentRecieptSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Taxable Property Report'])[2]")
+	WebElement TaxablePropertyReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='PropertyWise DCB'])[2]")
+	WebElement PropertyWiseDCBSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Htax DCB Report'])[2]")
+	WebElement HtaxDCBReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Print All Demand Reciept'])[2]")
+	WebElement PrintAllDemandRecieptSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Variation Report'])[2]")
+	WebElement VariationReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Reassesment Diff'])[2]")
+	WebElement ReassesmentDiffSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Cheque Bounced Collection Report'])[2]")
+	WebElement ChequeBouncedCollectionReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Re-verification Difference Report'])[2]")
+	WebElement ReVerificationDifferenceReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Tax Collection Report'])[2]")
+	WebElement TaxCollectionReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Appti List'])[2]")
+	WebElement ApptiListSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Apptti Pending Report'])[2]")
+	WebElement AppttiPendingReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Appti Reject List'])[2]")
+	WebElement ApptiRejectListSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='TC Visit Report'])[2]")
+	WebElement TCVisitReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='TC Visit Summary'])[2]")
+	WebElement TCVisitSummarySubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Property Wise TC Visit'])[2]")
+	WebElement PropertyWiseTCVisitSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='TL Visit Report'])[2]")
+	WebElement TLVisitReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='All Updation Report'])[2]")
+	WebElement AllUpdationReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='DN 130 Distribution Reports'])[2]")
+	WebElement DN130DistributionReportsSubMenu;
+	
+	public void scrollToElement(WebDriver driver, WebElement element) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
+    }
 	
 	
 	public String getDashBoardText() {
@@ -248,6 +343,149 @@ WebDriver ldriver;
 	public boolean DNNoticeDistributionSubMenuisdisplayed() {
 		return DNNoticeDistributionSubMenu.isDisplayed();
 	}
+	
+	public void clickOnUDTaxReportMenu() {
+		UDTaxReportMenu.click();
+	}
+	
+	public boolean CounterReportSubMenuisdisplayed() {
+		return CounterReportSubMenu.isDisplayed();
+	}
+	
+	public boolean TCCollectionSummarySubMenuisdisplayed() {
+		return TCCollectionSummarySubMenu.isDisplayed();
+	}
+	
+	public boolean DCBReportSubMenuisdisplayed() {
+		return DCBReportSubMenu.isDisplayed();
+	}
+	
+	public boolean SAFReportSubMenuisdisplayed() {
+		return SAFReportSubMenu.isDisplayed();
+	}
+	
+	public boolean ZoneAndWardWiseCollectionReportSubMenuisdisplayed() {
+		return ZoneAndWardWiseCollectionReportSubMenu.isDisplayed();
+	}
+	
+	public boolean PaymentModeWiseCollectionSubMenuisdisplayed() {
+		return PaymentModeWiseCollectionSubMenu.isDisplayed();
+	}
+	
+	public boolean ULBReportSubMenuisdisplayed() {
+		return ULBReportSubMenu.isDisplayed();
+	}
+	
+	public boolean TransactionDeactivateReportSubMenuisdisplayed() {
+		return TransactionDeactivateReportSubMenu.isDisplayed();
+	}
+	
+	public boolean ALLModuleTCSummarySubMenuisdisplayed() {
+		scrollToElement(ldriver, ALLModuleTCSummarySubMenu);
+		return ALLModuleTCSummarySubMenu.isDisplayed();
+	}
+	
+	public boolean ChequeBounceReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, ChequeBounceReportSubMenu);
+		return ChequeBounceReportSubMenu.isDisplayed();
+	}
+	
+	public boolean PrintAllPaymentReceiptSubMenuisdisplayed() {
+		scrollToElement(ldriver, PrintAllPaymentRecieptSubMenu);
+		return PrintAllPaymentRecieptSubMenu.isDisplayed();
+	}
+	
+	public boolean TaxablePropertyReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, TaxablePropertyReportSubMenu);
+		return TaxablePropertyReportSubMenu.isDisplayed();
+	}
+	
+	public boolean PropertyWiseDCBSubMenuisdisplayed() {
+		scrollToElement(ldriver, PropertyWiseDCBSubMenu);
+		return PropertyWiseDCBSubMenu.isDisplayed();
+	}
+	
+	public boolean HtaxDCBReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, HtaxDCBReportSubMenu);
+		return HtaxDCBReportSubMenu.isDisplayed();
+	}
+	
+	public boolean PrintAllDemandRecieptSubMenuisdisplayed() {
+		scrollToElement(ldriver, PrintAllDemandRecieptSubMenu);
+		return PrintAllDemandRecieptSubMenu.isDisplayed();
+	}
+	
+	public boolean VariationReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, VariationReportSubMenu);
+		return VariationReportSubMenu.isDisplayed();
+	}
+	
+	public boolean ReassesmentDiffSubMenuisdisplayed() {
+		scrollToElement(ldriver, ReassesmentDiffSubMenu);
+		return ReassesmentDiffSubMenu.isDisplayed();
+	}
+	
+	public boolean ChequeBouncedCollectionReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, ChequeBouncedCollectionReportSubMenu);
+		return ChequeBouncedCollectionReportSubMenu.isDisplayed();
+	}
+	
+	public boolean ReverificationDifferenceReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, ReVerificationDifferenceReportSubMenu);
+		return ReVerificationDifferenceReportSubMenu.isDisplayed();
+	}
+	
+	public boolean TaxCollectionReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, TaxCollectionReportSubMenu);
+		return TaxCollectionReportSubMenu.isDisplayed();
+	}
+	
+	public boolean ApptiListSubMenuisdisplayed() {
+		scrollToElement(ldriver, ApptiListSubMenu);
+		return ApptiListSubMenu.isDisplayed();
+	}
+	
+	public boolean AppttiPendingReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, AppttiPendingReportSubMenu);
+		return AppttiPendingReportSubMenu.isDisplayed();
+	}
+	
+	public boolean ApptiRejectListSubMenuisdisplayed() {
+		scrollToElement(ldriver, ApptiRejectListSubMenu);
+		return ApptiRejectListSubMenu.isDisplayed();
+	}
+	
+	public boolean TCVisitReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, TCVisitReportSubMenu);
+		return TCVisitReportSubMenu.isDisplayed();
+	}
+	
+	public boolean TCVisitSummarySubMenuisdisplayed() {
+		scrollToElement(ldriver, TCVisitSummarySubMenu);
+		return TCVisitSummarySubMenu.isDisplayed();
+	}
+	
+	public boolean PropertyWiseTCVisitSubMenuisdisplayed() {
+		scrollToElement(ldriver, PropertyWiseTCVisitSubMenu);
+		return PropertyWiseTCVisitSubMenu.isDisplayed();
+	}
+	
+	public boolean TLVisitReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, TLVisitReportSubMenu);
+		return TLVisitReportSubMenu.isDisplayed();
+	}
+	
+	public boolean AllUpdationReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, AllUpdationReportSubMenu);
+		return AllUpdationReportSubMenu.isDisplayed();
+	}
+	
+	public boolean DN130DistributionReportsSubMenuisdisplayed() {
+		scrollToElement(ldriver, DN130DistributionReportsSubMenu);
+		return DN130DistributionReportsSubMenu.isDisplayed();
+	}
+	
+	
 	
 	
 	

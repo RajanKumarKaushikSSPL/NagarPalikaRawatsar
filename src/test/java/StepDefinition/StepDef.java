@@ -109,7 +109,7 @@ public class StepDef extends BaseClass {
 		
 		//launch browser
 		switch(browser.toLowerCase()) {
-case "chrome":
+            case "chrome":
 			
 			ChromeOptions chromeoptions = new ChromeOptions();
 			prefs = new HashMap<>();
