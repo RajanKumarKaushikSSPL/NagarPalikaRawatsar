@@ -202,6 +202,79 @@ WebDriver ldriver;
 	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='DN 130 Distribution Reports'])[2]")
 	WebElement DN130DistributionReportsSubMenu;
 	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Property Survey'])[2]")
+	WebElement PropertySurveyMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Report'])[2]")
+	WebElement SurveyReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Summary Report'])[2]")
+	WebElement SurveySummaryReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Team Summary'])[2]")
+	WebElement SurveyTeamSummarySubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Assessed List'])[2]")
+	WebElement SurveyAssessedListSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Assessed Report'])[2]")
+	WebElement SurveyAssessedReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Wardwise Survey Report'])[2]")
+	WebElement WardwiseSurveyReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Pending Report'])[2]")
+	WebElement SurveyPendingReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Level Summary Report'])[2]")
+	WebElement SurveyLevelSummaryReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Userwise Forward Summary'])[2]")
+	WebElement UserwiseForwardSummarySubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Userwise Survey Edit Report'])[2]")
+	WebElement UserwiseSurveyEditReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Modification Report'])[2]")
+	WebElement SurveyModificationReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Geotagging Report'])[2]")
+	WebElement SurveyGeotaggingReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Ex-Party Survey Notice'])[2]")
+	WebElement ExPartySurveyNoticeSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Notice List'])[2]")
+	WebElement SurveyNoticeListSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Bulk Survey Notice Print'])[2]")
+	WebElement BulkSurveyNoticePrintSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Notice Received List'])[2]")
+	WebElement SurveyNoticeReceivedListSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Notice Received Report'])[2]")
+	WebElement SurveyNoticeReceivedReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Notice Distributed Report'])[2]")
+	WebElement SurveyNoticeDistributedReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Demand Report'])[2]")
+	WebElement SurveyDemandReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey GIS Update'])[2]")
+	WebElement SurveyGISUpdateSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Survey Visit Report'])[2]")
+	WebElement SurveyVisitReportSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='TL Survey Visit'])[2]")
+	WebElement TLSurveyVisitSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='TL Survey Visit Report'])[2]")
+	WebElement TLSurveyVisitReportSubMenu;
+	
+	
 	public void scrollToElement(WebDriver driver, WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
     }
@@ -484,6 +557,127 @@ WebDriver ldriver;
 		scrollToElement(ldriver, DN130DistributionReportsSubMenu);
 		return DN130DistributionReportsSubMenu.isDisplayed();
 	}
+	
+	public void clickOnPropertySurveyMenu() {
+		PropertySurveyMenu.click();
+	}
+	
+	public boolean SurveyReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyReportSubMenu);
+		return SurveyReportSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveySummaryReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveySummaryReportSubMenu);
+		return SurveySummaryReportSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyTeamSummarySubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyTeamSummarySubMenu);
+		return SurveyTeamSummarySubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyAssessedListSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyAssessedListSubMenu);
+		return SurveyAssessedListSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyAssessedReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyAssessedReportSubMenu);
+		return SurveyAssessedReportSubMenu.isDisplayed();
+	}
+	
+	public boolean WardwiseSurveyReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, WardwiseSurveyReportSubMenu);
+		return WardwiseSurveyReportSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyPendingReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyPendingReportSubMenu);
+		return SurveyPendingReportSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyLevelSummaryReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyLevelSummaryReportSubMenu);
+		return SurveyLevelSummaryReportSubMenu.isDisplayed();
+	}
+	
+	public boolean UserwiseForwardSummarySubMenuisdisplayed() {
+		scrollToElement(ldriver, UserwiseForwardSummarySubMenu);
+		return UserwiseForwardSummarySubMenu.isDisplayed();
+	}
+	
+	public boolean UserwiseSurveyEditReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, UserwiseSurveyEditReportSubMenu);
+		return UserwiseSurveyEditReportSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyModificationReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyModificationReportSubMenu);
+		return SurveyModificationReportSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyGeotaggingReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyGeotaggingReportSubMenu);
+		return SurveyGeotaggingReportSubMenu.isDisplayed();
+	}
+	
+	public boolean ExPartySurveyNoticeSubMenuisdisplayed() {
+		scrollToElement(ldriver, ExPartySurveyNoticeSubMenu);
+		return ExPartySurveyNoticeSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyNoticeListSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyNoticeListSubMenu);
+		return SurveyNoticeListSubMenu.isDisplayed();
+	}
+	
+	public boolean BulkSurveyNoticePrintSubMenuisdisplayed() {
+		scrollToElement(ldriver, BulkSurveyNoticePrintSubMenu);
+		return BulkSurveyNoticePrintSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyNoticeReceivedListSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyNoticeReceivedListSubMenu);
+		return SurveyNoticeReceivedListSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyNoticeReceivedReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyNoticeReceivedReportSubMenu);
+		return SurveyNoticeReceivedReportSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyNoticeDistributedReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyNoticeDistributedReportSubMenu);
+		return SurveyNoticeDistributedReportSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyDemandReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyDemandReportSubMenu);
+		return SurveyDemandReportSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyGISUpdateSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyGISUpdateSubMenu);
+		return SurveyGISUpdateSubMenu.isDisplayed();
+	}
+	
+	public boolean SurveyVisitReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, SurveyVisitReportSubMenu);
+		return SurveyVisitReportSubMenu.isDisplayed();
+	}
+	
+	public boolean TLSurveyVisitSubMenuisdisplayed() {
+		scrollToElement(ldriver, TLSurveyVisitSubMenu);
+		return TLSurveyVisitSubMenu.isDisplayed();
+	}
+	
+	public boolean TLSurveyVisitReportSubMenuisdisplayed() {
+		scrollToElement(ldriver, TLSurveyVisitReportSubMenu);
+		return TLSurveyVisitReportSubMenu.isDisplayed();
+	}
+	
+	
 	
 	
 	
