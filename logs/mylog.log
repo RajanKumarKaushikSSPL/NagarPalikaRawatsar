@@ -1,229 +1,407 @@
-[INFO ] 2026-09-07 12:41:34.816 [main] StepDef - Setup-Smoke method executed
-[INFO ] 2026-09-07 12:41:34.906 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:41:36.463 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:41:36.865 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:41:38.692 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:41:41.751 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:41:43.984 [main] StepDef - user can view transaction deactivate submenu of Accounts menu
-[INFO ] 2026-09-07 12:41:44.043 [main] StepDef - user can view cash verification submenu of Accounts menu
-[INFO ] 2026-09-07 12:41:44.099 [main] StepDef - user can view bank deposit date entry submenu of Accounts menu
-[INFO ] 2026-09-07 12:41:44.154 [main] StepDef - user can view bank reconciliation submenu of Accounts menu
-[INFO ] 2026-09-07 12:41:44.205 [main] StepDef - user can view Payment Mode Update submenu of Accounts menu
-[INFO ] 2026-09-07 12:41:44.252 [main] StepDef - user can view House Tax Transaction Deactivate submenu of Accounts menu
-[INFO ] 2026-09-07 12:41:44.299 [main] StepDef - user can view House Tax Payment Mode Update submenu of Accounts menu
-[INFO ] 2026-09-07 12:41:46.623 [main] StepDef - Setup-Smoke method executed
-[INFO ] 2026-09-07 12:41:46.638 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:41:48.861 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:41:49.288 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:41:51.841 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:41:54.911 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:41:55.002 [main] StepDef - clicked on Assessment Menu
-[INFO ] 2026-09-07 12:41:57.072 [main] StepDef - User is able to see Reassessment submenu
-[INFO ] 2026-09-07 12:41:57.103 [main] StepDef - User is able to see Reverification submenu
-[INFO ] 2026-09-07 12:41:57.134 [main] StepDef - User is able to see Reverification TL submenu
-[INFO ] 2026-09-07 12:41:57.162 [main] StepDef - User is able to see House Tax Entry submenu
-[INFO ] 2026-09-07 12:41:57.190 [main] StepDef - User is able to see Legacy Entry submenu
-[INFO ] 2026-09-07 12:41:57.218 [main] StepDef - User is able to see Edit New Assessment submenu
-[INFO ] 2026-09-07 12:41:59.394 [main] StepDef - Setup-Smoke method executed
-[INFO ] 2026-09-07 12:41:59.408 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:42:00.840 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:42:01.394 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:42:02.419 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:42:05.488 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:42:05.582 [main] StepDef - User clicks on dashboard menu
-[INFO ] 2026-09-07 12:42:07.675 [main] StepDef - user is able to see Work Report Dashboard submenu
-[INFO ] 2026-09-07 12:42:07.707 [main] StepDef - user is able to see BOH Dashboard submenu
-[INFO ] 2026-09-07 12:42:09.895 [main] StepDef - Setup-Regression method executed
-[INFO ] 2026-09-07 12:42:09.915 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:42:11.544 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:42:11.906 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:42:12.024 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:42:15.085 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:42:15.175 [main] StepDef - User clicks on dashboard menu
-[INFO ] 2026-09-07 12:42:17.980 [main] StepDef - User clicks on Work Report Dashboard submenu
-[INFO ] 2026-09-07 12:42:20.126 [main] StepDef - User clicks on search button of Work Report Dashboard
-[INFO ] 2026-09-07 12:42:22.179 [main] StepDef - user can view Work Report Dashboard report
-[INFO ] 2026-09-07 12:42:22.180 [main] StepDef - Browser closed
-[INFO ] 2026-09-07 12:42:24.367 [main] StepDef - Setup-Regression method executed
-[INFO ] 2026-09-07 12:42:24.372 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:42:25.849 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:42:26.399 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:42:26.499 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:42:29.570 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:42:29.665 [main] StepDef - User clicks on dashboard menu
-[INFO ] 2026-09-07 12:42:32.331 [main] StepDef - User clicks on Work BOH Dashboard submenu
-[INFO ] 2026-09-07 12:42:34.743 [main] StepDef - User clicks on search button of BOH Dashboard
-[INFO ] 2026-09-07 12:42:36.786 [main] StepDef - user can view report of BOH Dashboard
-[INFO ] 2026-09-07 12:42:36.787 [main] StepDef - Browser closed
-[INFO ] 2026-09-07 12:42:39.059 [main] StepDef - Setup-Regression method executed
-[INFO ] 2026-09-07 12:42:41.118 [main] StepDef - Setup-Smoke method executed
-[INFO ] 2026-09-07 12:42:41.124 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:42:42.548 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:42:42.981 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:42:44.807 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:42:47.876 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:42:47.967 [main] StepDef - User clicked on super admin profile
-[INFO ] 2026-09-07 12:42:50.561 [main] StepDef - User clicked on signout button
-[INFO ] 2026-09-07 12:42:52.597 [main] StepDef - User is able to see login page of Nagar Palika Rawatsar
-[INFO ] 2026-09-07 12:42:52.598 [main] StepDef - Browser closed
-[INFO ] 2026-09-07 12:42:55.354 [main] StepDef - Setup-DDT method executed..
-[INFO ] 2026-09-07 12:42:55.365 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:42:58.309 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:42:59.064 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:42:59.197 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:43:06.297 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:43:06.390 [main] StepDef - User clicked on super admin profile
-[INFO ] 2026-09-07 12:43:09.522 [main] StepDef - User clicked on signout button
-[INFO ] 2026-09-07 12:43:11.556 [main] StepDef - User is able to see login page of Nagar Palika Rawatsar
-[INFO ] 2026-09-07 12:43:11.558 [main] StepDef - Browser closed
-[INFO ] 2026-09-07 12:43:14.506 [main] StepDef - Setup-DDT method executed..
-[INFO ] 2026-09-07 12:43:14.514 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:43:15.913 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:43:16.432 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:43:16.539 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:43:21.811 [main] StepDef - Setup-DDT method executed..
-[INFO ] 2026-09-07 12:43:21.814 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:43:23.115 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:43:23.515 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:43:23.792 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:43:28.906 [main] StepDef - Setup-DDT method executed..
-[INFO ] 2026-09-07 12:43:28.911 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:43:30.307 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:43:30.857 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:43:31.306 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:43:36.538 [main] StepDef - Setup-DDT method executed..
-[INFO ] 2026-09-07 12:43:36.545 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:43:37.875 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:43:38.392 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:43:38.522 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:43:43.796 [main] StepDef - Setup-DDT method executed..
-[INFO ] 2026-09-07 12:43:43.799 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:43:44.904 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:43:45.287 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:43:45.419 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:43:50.664 [main] StepDef - Setup-DDT method executed..
-[INFO ] 2026-09-07 12:43:50.666 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:43:52.144 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:43:52.626 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:43:52.746 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:43:57.932 [main] StepDef - Setup-DDT method executed..
-[INFO ] 2026-09-07 12:43:57.941 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:43:59.532 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:43:59.875 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:43:59.985 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:44:05.241 [main] StepDef - Setup-DDT method executed..
-[INFO ] 2026-09-07 12:44:05.245 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:44:06.620 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:44:06.966 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:44:07.297 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:44:12.467 [main] StepDef - Setup-Smoke method executed
-[INFO ] 2026-09-07 12:44:12.471 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:44:14.001 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:44:14.524 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:44:14.618 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:44:17.689 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:44:17.784 [main] StepDef - User clicks on Property Survey menu
-[INFO ] 2026-09-07 12:44:19.874 [main] StepDef - user can view Survey Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:19.924 [main] StepDef - user can view Survey Summary Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:19.975 [main] StepDef - user can view Survey Team Summary submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.029 [main] StepDef - user can view Survey Assessed List submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.084 [main] StepDef - user can view Survey Assessed Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.134 [main] StepDef - user can view Wardwise Survey Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.180 [main] StepDef - user can view Survey Pending Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.228 [main] StepDef - user can view Survey Level Summary Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.267 [main] StepDef - user can view Survey Level Summary Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.313 [main] StepDef - user can view Userwise Forward Summary submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.359 [main] StepDef - user can view Userwise Survey Edit Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.404 [main] StepDef - user can view Survey Modification Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.449 [main] StepDef - user can view Survey Geotagging Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.493 [main] StepDef - user can view Ex-Party Survey Notice submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.540 [main] StepDef - user can view Survey Notice List submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.598 [main] StepDef - user can view Bulk Survey Notice Print submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.641 [main] StepDef - user can view Survey Notice Received List submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.680 [main] StepDef - user can view Survey Notice Received Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.723 [main] StepDef - user can view Survey Notice Distributed Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.763 [main] StepDef - user can view Survey Demand Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.803 [main] StepDef - user can view Survey GIS Update submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.843 [main] StepDef - user can view Survey Visit Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.883 [main] StepDef - user can view TL Survey Visit submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:20.926 [main] StepDef - user can view TL Survey Visit Report submenu of Property Survey menu
-[INFO ] 2026-09-07 12:44:23.025 [main] StepDef - Setup-Smoke method executed
-[INFO ] 2026-09-07 12:44:23.029 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:44:23.119 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:44:24.930 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:44:25.033 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:44:28.101 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:44:28.201 [main] StepDef - User clicks on UD Tax menu
-[INFO ] 2026-09-07 12:44:30.278 [main] StepDef - User is able to see Search Propety submenu
-[INFO ] 2026-09-07 12:44:30.320 [main] StepDef - User is able to see Document Upload submenu
-[INFO ] 2026-09-07 12:44:30.352 [main] StepDef - User is able to see Update Property Details submenu
-[INFO ] 2026-09-07 12:44:30.383 [main] StepDef - User is able to see Last Payment Update submenu
-[INFO ] 2026-09-07 12:44:30.414 [main] StepDef - User is able to see Update Owner Details submenu
-[INFO ] 2026-09-07 12:44:30.439 [main] StepDef - User is able to see Property Deativate submenu
-[INFO ] 2026-09-07 12:44:30.464 [main] StepDef - User is able to see Ward Update submenu
-[INFO ] 2026-09-07 12:44:30.490 [main] StepDef - User is able to see Adjustment submenu
-[INFO ] 2026-09-07 12:44:30.523 [main] StepDef - User is able to see House Tax Last Payment Update submenu
-[INFO ] 2026-09-07 12:44:30.551 [main] StepDef - User is able to see TL Property Visit submenu
-[INFO ] 2026-09-07 12:44:30.577 [main] StepDef - User is able to see DN Notice Distribution submenu
-[INFO ] 2026-09-07 12:44:32.506 [main] StepDef - Setup-Smoke method executed
-[INFO ] 2026-09-07 12:44:32.510 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:44:36.580 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:44:36.941 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:44:39.176 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:44:42.240 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:44:42.336 [main] StepDef - User clicks on UD Tax Report menu
-[INFO ] 2026-09-07 12:44:44.368 [main] StepDef - user can view counter report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.395 [main] StepDef - user can view TC Collection Summary submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.421 [main] StepDef - user can view DCB Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.449 [main] StepDef - user can view SAF Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.482 [main] StepDef - user can view Zone and Ward Wise Collection Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.512 [main] StepDef - user can view Payment Mode Wise Collection submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.544 [main] StepDef - user can view ULB Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.576 [main] StepDef - user can view Transaction Deactivate Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.656 [main] StepDef - user can view ALL Module TC Summary submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.726 [main] StepDef - user can view Cheque Bounce Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.790 [main] StepDef - user can view Print All Payment Reciept submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.858 [main] StepDef - user can view Taxable Property Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.924 [main] StepDef - user can view PropertyWise DCB submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:44.992 [main] StepDef - user can view Htax DCB Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.055 [main] StepDef - user can view Print All Demand Reciept submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.117 [main] StepDef - user can view Variation Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.198 [main] StepDef - user can view Reassesment Diff submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.266 [main] StepDef - user can view Cheque Bounced Collection Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.346 [main] StepDef - user can view Re-verification Difference Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.428 [main] StepDef - user can view Tax Collection Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.477 [main] StepDef - user can view Appti List submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.530 [main] StepDef - user can view Apptti Pending Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.569 [main] StepDef - user can view Appti Reject List submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.612 [main] StepDef - user can view TC Visit Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.656 [main] StepDef - user can view TC Visit Summary submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.696 [main] StepDef - user can view Property Wise TC Visit submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.737 [main] StepDef - user can view TL Visit Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.780 [main] StepDef - user can view All Updation Report submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:45.825 [main] StepDef - user can view DN130 Distribution Reports submenu of UDTax Report menu
-[INFO ] 2026-09-07 12:44:47.917 [main] StepDef - Setup-Smoke method executed
-[INFO ] 2026-09-07 12:44:47.921 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-07 12:44:49.291 [main] StepDef - URL opened
-[INFO ] 2026-09-07 12:44:49.668 [main] StepDef - username and password entered
-[INFO ] 2026-09-07 12:44:51.690 [main] StepDef - clicked on login button
-[INFO ] 2026-09-07 12:44:54.766 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-07 12:44:54.872 [main] StepDef - clicked on UD Tax Menu
-[INFO ] 2026-09-07 12:44:56.944 [main] StepDef - user can view Road Type submenu
-[INFO ] 2026-09-07 12:44:56.969 [main] StepDef - user can view Usage Type submenu
-[INFO ] 2026-09-07 12:44:56.993 [main] StepDef - user can view Usage SubCategory Master submenu
-[INFO ] 2026-09-07 12:44:57.020 [main] StepDef - user can view Sub Category Details submenu
-[INFO ] 2026-09-07 12:44:57.043 [main] StepDef - user can view DLC rate master submenu
-[INFO ] 2026-09-07 12:44:57.071 [main] StepDef - user can view DLC Search submenu
-[INFO ] 2026-09-08 12:48:05.463 [main] StepDef - Setup-Smoke method executed
-[INFO ] 2026-09-08 12:48:05.898 [main] StepDef - chrome browser launched
-[INFO ] 2026-09-08 12:48:12.556 [main] StepDef - URL opened
-[INFO ] 2026-09-08 12:48:13.413 [main] StepDef - username and password entered
-[INFO ] 2026-09-08 12:48:16.810 [main] StepDef - clicked on login button
-[INFO ] 2026-09-08 12:48:19.901 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
-[INFO ] 2026-09-08 12:48:22.555 [main] StepDef - user can view transaction deactivate submenu of Accounts menu
-[INFO ] 2026-09-08 12:48:22.727 [main] StepDef - user can view cash verification submenu of Accounts menu
-[INFO ] 2026-09-08 12:48:22.856 [main] StepDef - user can view bank deposit date entry submenu of Accounts menu
-[INFO ] 2026-09-08 12:48:23.010 [main] StepDef - user can view bank reconciliation submenu of Accounts menu
-[INFO ] 2026-09-08 12:48:23.209 [main] StepDef - user can view Payment Mode Update submenu of Accounts menu
-[INFO ] 2026-09-08 12:48:23.373 [main] StepDef - user can view House Tax Transaction Deactivate submenu of Accounts menu
-[INFO ] 2026-09-08 12:48:23.529 [main] StepDef - user can view House Tax Payment Mode Update submenu of Accounts menu
+[INFO ] 2026-09-08 15:46:57.088 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:46:57.446 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:46:59.871 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:47:00.932 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:47:02.578 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:47:05.666 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:47:05.882 [main] StepDef - User clicks on Inactive Survey menu
+[INFO ] 2026-09-08 15:47:08.303 [main] StepDef - user can view Inactive Survey submenu of Inactive Survey menu
+[INFO ] 2026-09-08 15:47:08.549 [main] StepDef - user can view Inactive Survey Activity submenu of Inactive Survey menu
+[INFO ] 2026-09-08 15:50:28.899 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:50:29.215 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:50:31.483 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:50:32.618 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:50:34.467 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:50:37.555 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:50:40.166 [main] StepDef - user can view transaction deactivate submenu of Accounts menu
+[INFO ] 2026-09-08 15:50:40.340 [main] StepDef - user can view cash verification submenu of Accounts menu
+[INFO ] 2026-09-08 15:50:40.556 [main] StepDef - user can view bank deposit date entry submenu of Accounts menu
+[INFO ] 2026-09-08 15:50:40.824 [main] StepDef - user can view bank reconciliation submenu of Accounts menu
+[INFO ] 2026-09-08 15:50:41.066 [main] StepDef - user can view Payment Mode Update submenu of Accounts menu
+[INFO ] 2026-09-08 15:50:41.257 [main] StepDef - user can view House Tax Transaction Deactivate submenu of Accounts menu
+[INFO ] 2026-09-08 15:50:41.392 [main] StepDef - user can view House Tax Payment Mode Update submenu of Accounts menu
+[INFO ] 2026-09-08 15:50:46.734 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:50:46.761 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:50:49.100 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:50:50.093 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:50:52.008 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:50:55.086 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:50:55.283 [main] StepDef - clicked on Assessment Menu
+[INFO ] 2026-09-08 15:50:57.446 [main] StepDef - User is able to see Reassessment submenu
+[INFO ] 2026-09-08 15:50:57.538 [main] StepDef - User is able to see Reverification submenu
+[INFO ] 2026-09-08 15:50:57.619 [main] StepDef - User is able to see Reverification TL submenu
+[INFO ] 2026-09-08 15:50:57.711 [main] StepDef - User is able to see House Tax Entry submenu
+[INFO ] 2026-09-08 15:50:57.811 [main] StepDef - User is able to see Legacy Entry submenu
+[INFO ] 2026-09-08 15:50:57.964 [main] StepDef - User is able to see Edit New Assessment submenu
+[INFO ] 2026-09-08 15:51:03.783 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:51:03.856 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:51:07.858 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:51:09.029 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:51:10.803 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:51:13.895 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:51:14.176 [main] StepDef - User clicks on dashboard menu
+[INFO ] 2026-09-08 15:51:16.276 [main] StepDef - user is able to see Work Report Dashboard submenu
+[INFO ] 2026-09-08 15:51:16.354 [main] StepDef - user is able to see BOH Dashboard submenu
+[INFO ] 2026-09-08 15:51:21.072 [main] StepDef - Setup-Regression method executed
+[INFO ] 2026-09-08 15:51:21.102 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:51:23.465 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:51:24.400 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:51:26.479 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:51:29.547 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:51:29.745 [main] StepDef - User clicks on dashboard menu
+[INFO ] 2026-09-08 15:51:33.314 [main] StepDef - User clicks on Work Report Dashboard submenu
+[INFO ] 2026-09-08 15:51:36.515 [main] StepDef - User clicks on search button of Work Report Dashboard
+[INFO ] 2026-09-08 15:51:38.641 [main] StepDef - user can view Work Report Dashboard report
+[INFO ] 2026-09-08 15:51:38.647 [main] StepDef - Browser closed
+[INFO ] 2026-09-08 15:51:43.407 [main] StepDef - Setup-Regression method executed
+[INFO ] 2026-09-08 15:51:43.439 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:51:45.950 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:51:46.911 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:51:47.661 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:51:50.741 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:51:50.952 [main] StepDef - User clicks on dashboard menu
+[INFO ] 2026-09-08 15:51:53.925 [main] StepDef - User clicks on Work BOH Dashboard submenu
+[INFO ] 2026-09-08 15:51:56.726 [main] StepDef - User clicks on search button of BOH Dashboard
+[INFO ] 2026-09-08 15:51:58.855 [main] StepDef - user can view report of BOH Dashboard
+[INFO ] 2026-09-08 15:51:58.857 [main] StepDef - Browser closed
+[INFO ] 2026-09-08 15:52:03.494 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:52:03.508 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:52:05.847 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:52:06.882 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:52:08.614 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:52:11.701 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:52:11.893 [main] StepDef - User clicks on Inactive Property menu
+[INFO ] 2026-09-08 15:52:14.130 [main] StepDef - user can view Inactive Property submenu of Inactive Property menu
+[INFO ] 2026-09-08 15:52:14.310 [main] StepDef - user can view Inactive DCB submenu of Inactive Property menu
+[INFO ] 2026-09-08 15:52:14.438 [main] StepDef - user can view Inactive Property Activity submenu of Inactive Property menu
+[INFO ] 2026-09-08 15:52:19.182 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:52:19.192 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:52:21.644 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:52:22.732 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:52:25.295 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:52:28.373 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:52:28.570 [main] StepDef - User clicks on Inactive Survey menu
+[INFO ] 2026-09-08 15:52:30.805 [main] StepDef - user can view Inactive Survey submenu of Inactive Survey menu
+[INFO ] 2026-09-08 15:52:30.989 [main] StepDef - user can view Inactive Survey Activity submenu of Inactive Survey menu
+[INFO ] 2026-09-08 15:52:35.656 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:52:40.408 [main] StepDef - Setup-Regression method executed
+[INFO ] 2026-09-08 15:52:40.417 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:52:43.597 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:52:44.587 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:52:46.177 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:52:49.261 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:52:49.568 [main] StepDef - User clicked on super admin profile
+[INFO ] 2026-09-08 15:53:00.174 [main] StepDef - User clicked on signout button
+[INFO ] 2026-09-08 15:53:02.220 [main] StepDef - User is able to see login page of Nagar Palika Rawatsar
+[INFO ] 2026-09-08 15:53:02.221 [main] StepDef - Browser closed
+[INFO ] 2026-09-08 15:53:07.120 [main] StepDef - Setup-DDT method executed..
+[INFO ] 2026-09-08 15:53:07.138 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:53:11.221 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:53:12.107 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:53:13.635 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:53:16.722 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:53:16.927 [main] StepDef - User clicked on super admin profile
+[INFO ] 2026-09-08 15:53:20.136 [main] StepDef - User clicked on signout button
+[INFO ] 2026-09-08 15:53:22.181 [main] StepDef - User is able to see login page of Nagar Palika Rawatsar
+[INFO ] 2026-09-08 15:53:22.183 [main] StepDef - Browser closed
+[INFO ] 2026-09-08 15:53:26.833 [main] StepDef - Setup-DDT method executed..
+[INFO ] 2026-09-08 15:53:26.840 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:53:29.321 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:53:30.261 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:53:31.610 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:53:39.974 [main] StepDef - Setup-DDT method executed..
+[INFO ] 2026-09-08 15:53:39.981 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:53:42.480 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:53:43.630 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:53:44.754 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:53:52.443 [main] StepDef - Setup-DDT method executed..
+[INFO ] 2026-09-08 15:53:52.455 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:53:54.855 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:53:55.806 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:53:56.959 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:54:04.783 [main] StepDef - Setup-DDT method executed..
+[INFO ] 2026-09-08 15:54:04.790 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:54:07.183 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:54:08.058 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:54:08.437 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:54:16.300 [main] StepDef - Setup-DDT method executed..
+[INFO ] 2026-09-08 15:54:16.315 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:54:18.800 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:54:19.620 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:54:19.974 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:54:28.220 [main] StepDef - Setup-DDT method executed..
+[INFO ] 2026-09-08 15:54:28.234 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:54:30.589 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:54:31.398 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:54:31.786 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:54:39.740 [main] StepDef - Setup-DDT method executed..
+[INFO ] 2026-09-08 15:54:39.757 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:54:44.385 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:54:45.487 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:54:45.720 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:54:53.468 [main] StepDef - Setup-DDT method executed..
+[INFO ] 2026-09-08 15:54:53.487 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:54:55.876 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:54:56.677 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:54:57.070 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:55:04.970 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:55:04.987 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:55:07.333 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:55:08.214 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:55:10.100 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:55:13.182 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:55:13.381 [main] StepDef - User clicks on Property Survey menu
+[INFO ] 2026-09-08 15:55:15.550 [main] StepDef - user can view Survey Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:15.711 [main] StepDef - user can view Survey Summary Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:15.864 [main] StepDef - user can view Survey Team Summary submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:16.037 [main] StepDef - user can view Survey Assessed List submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:16.169 [main] StepDef - user can view Survey Assessed Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:16.327 [main] StepDef - user can view Wardwise Survey Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:16.467 [main] StepDef - user can view Survey Pending Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:16.628 [main] StepDef - user can view Survey Level Summary Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:16.764 [main] StepDef - user can view Survey Level Summary Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:16.961 [main] StepDef - user can view Userwise Forward Summary submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:17.122 [main] StepDef - user can view Userwise Survey Edit Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:17.335 [main] StepDef - user can view Survey Modification Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:17.476 [main] StepDef - user can view Survey Geotagging Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:17.766 [main] StepDef - user can view Ex-Party Survey Notice submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:17.947 [main] StepDef - user can view Survey Notice List submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:18.128 [main] StepDef - user can view Bulk Survey Notice Print submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:18.288 [main] StepDef - user can view Survey Notice Received List submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:18.469 [main] StepDef - user can view Survey Notice Received Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:18.698 [main] StepDef - user can view Survey Notice Distributed Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:18.819 [main] StepDef - user can view Survey Demand Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:19.177 [main] StepDef - user can view Survey GIS Update submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:19.568 [main] StepDef - user can view Survey Visit Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:19.841 [main] StepDef - user can view TL Survey Visit submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:19.985 [main] StepDef - user can view TL Survey Visit Report submenu of Property Survey menu
+[INFO ] 2026-09-08 15:55:25.134 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:55:25.145 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:55:27.445 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:55:28.351 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:55:30.274 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:55:33.345 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:55:33.539 [main] StepDef - User clicks on UD Tax menu
+[INFO ] 2026-09-08 15:55:35.644 [main] StepDef - User is able to see Search Propety submenu
+[INFO ] 2026-09-08 15:55:35.714 [main] StepDef - User is able to see Document Upload submenu
+[INFO ] 2026-09-08 15:55:35.785 [main] StepDef - User is able to see Update Property Details submenu
+[INFO ] 2026-09-08 15:55:35.870 [main] StepDef - User is able to see Last Payment Update submenu
+[INFO ] 2026-09-08 15:55:35.971 [main] StepDef - User is able to see Update Owner Details submenu
+[INFO ] 2026-09-08 15:55:36.088 [main] StepDef - User is able to see Property Deativate submenu
+[INFO ] 2026-09-08 15:55:36.190 [main] StepDef - User is able to see Ward Update submenu
+[INFO ] 2026-09-08 15:55:36.267 [main] StepDef - User is able to see Adjustment submenu
+[INFO ] 2026-09-08 15:55:36.360 [main] StepDef - User is able to see House Tax Last Payment Update submenu
+[INFO ] 2026-09-08 15:55:36.469 [main] StepDef - User is able to see TL Property Visit submenu
+[INFO ] 2026-09-08 15:55:36.572 [main] StepDef - User is able to see DN Notice Distribution submenu
+[INFO ] 2026-09-08 15:55:41.156 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:55:41.168 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:55:43.466 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:55:44.385 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:55:46.277 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:55:49.349 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:55:49.555 [main] StepDef - User clicks on UD Tax Report menu
+[INFO ] 2026-09-08 15:55:51.642 [main] StepDef - user can view counter report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:51.714 [main] StepDef - user can view TC Collection Summary submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:51.782 [main] StepDef - user can view DCB Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:51.856 [main] StepDef - user can view SAF Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:51.970 [main] StepDef - user can view Zone and Ward Wise Collection Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:52.043 [main] StepDef - user can view Payment Mode Wise Collection submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:52.118 [main] StepDef - user can view ULB Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:52.194 [main] StepDef - user can view Transaction Deactivate Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:52.402 [main] StepDef - user can view ALL Module TC Summary submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:52.584 [main] StepDef - user can view Cheque Bounce Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:52.794 [main] StepDef - user can view Print All Payment Reciept submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:52.927 [main] StepDef - user can view Taxable Property Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:53.087 [main] StepDef - user can view PropertyWise DCB submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:53.318 [main] StepDef - user can view Htax DCB Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:53.505 [main] StepDef - user can view Print All Demand Reciept submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:53.671 [main] StepDef - user can view Variation Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:53.857 [main] StepDef - user can view Reassesment Diff submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:54.056 [main] StepDef - user can view Cheque Bounced Collection Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:54.236 [main] StepDef - user can view Re-verification Difference Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:54.409 [main] StepDef - user can view Tax Collection Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:54.574 [main] StepDef - user can view Appti List submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:54.725 [main] StepDef - user can view Apptti Pending Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:54.946 [main] StepDef - user can view Appti Reject List submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:55.057 [main] StepDef - user can view TC Visit Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:55.175 [main] StepDef - user can view TC Visit Summary submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:55.315 [main] StepDef - user can view Property Wise TC Visit submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:55.419 [main] StepDef - user can view TL Visit Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:55.585 [main] StepDef - user can view All Updation Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:55:55.694 [main] StepDef - user can view DN130 Distribution Reports submenu of UDTax Report menu
+[INFO ] 2026-09-08 15:56:00.309 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:56:00.315 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:56:02.700 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:56:03.730 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:56:06.152 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:56:09.230 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 15:56:09.422 [main] StepDef - clicked on UD Tax Menu
+[INFO ] 2026-09-08 15:56:11.523 [main] StepDef - user can view Road Type submenu
+[INFO ] 2026-09-08 15:56:11.609 [main] StepDef - user can view Usage Type submenu
+[INFO ] 2026-09-08 15:56:11.685 [main] StepDef - user can view Usage SubCategory Master submenu
+[INFO ] 2026-09-08 15:56:11.781 [main] StepDef - user can view Sub Category Details submenu
+[INFO ] 2026-09-08 15:56:11.855 [main] StepDef - user can view DLC rate master submenu
+[INFO ] 2026-09-08 15:56:12.021 [main] StepDef - user can view DLC Search submenu
+[INFO ] 2026-09-08 15:59:49.962 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 15:59:50.161 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 15:59:52.866 [main] StepDef - URL opened
+[INFO ] 2026-09-08 15:59:54.051 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 15:59:55.573 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 15:59:58.683 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 16:00:01.239 [main] StepDef - user can view transaction deactivate submenu of Accounts menu
+[INFO ] 2026-09-08 16:00:01.449 [main] StepDef - user can view cash verification submenu of Accounts menu
+[INFO ] 2026-09-08 16:00:01.711 [main] StepDef - user can view bank deposit date entry submenu of Accounts menu
+[INFO ] 2026-09-08 16:00:01.926 [main] StepDef - user can view bank reconciliation submenu of Accounts menu
+[INFO ] 2026-09-08 16:00:02.074 [main] StepDef - user can view Payment Mode Update submenu of Accounts menu
+[INFO ] 2026-09-08 16:00:02.213 [main] StepDef - user can view House Tax Transaction Deactivate submenu of Accounts menu
+[INFO ] 2026-09-08 16:00:02.341 [main] StepDef - user can view House Tax Payment Mode Update submenu of Accounts menu
+[INFO ] 2026-09-08 16:00:07.542 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 16:00:07.597 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 16:00:09.987 [main] StepDef - URL opened
+[INFO ] 2026-09-08 16:00:10.946 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 16:00:13.040 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 16:00:16.124 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 16:00:16.322 [main] StepDef - clicked on Assessment Menu
+[INFO ] 2026-09-08 16:00:18.488 [main] StepDef - User is able to see Reassessment submenu
+[INFO ] 2026-09-08 16:00:18.579 [main] StepDef - User is able to see Reverification submenu
+[INFO ] 2026-09-08 16:00:18.693 [main] StepDef - User is able to see Reverification TL submenu
+[INFO ] 2026-09-08 16:00:18.858 [main] StepDef - User is able to see House Tax Entry submenu
+[INFO ] 2026-09-08 16:00:18.944 [main] StepDef - User is able to see Legacy Entry submenu
+[INFO ] 2026-09-08 16:00:19.077 [main] StepDef - User is able to see Edit New Assessment submenu
+[INFO ] 2026-09-08 16:00:24.470 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 16:00:24.508 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 16:00:26.665 [main] StepDef - URL opened
+[INFO ] 2026-09-08 16:00:27.646 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 16:00:29.560 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 16:00:32.649 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 16:00:32.864 [main] StepDef - User clicks on dashboard menu
+[INFO ] 2026-09-08 16:00:35.004 [main] StepDef - user is able to see Work Report Dashboard submenu
+[INFO ] 2026-09-08 16:00:35.091 [main] StepDef - user is able to see BOH Dashboard submenu
+[INFO ] 2026-09-08 16:00:39.746 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 16:00:39.779 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 16:00:42.251 [main] StepDef - URL opened
+[INFO ] 2026-09-08 16:00:43.222 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 16:00:45.129 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 16:00:48.216 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 16:00:48.408 [main] StepDef - User clicks on Inactive Property menu
+[INFO ] 2026-09-08 16:00:50.633 [main] StepDef - user can view Inactive Property submenu of Inactive Property menu
+[INFO ] 2026-09-08 16:00:50.778 [main] StepDef - user can view Inactive DCB submenu of Inactive Property menu
+[INFO ] 2026-09-08 16:00:50.910 [main] StepDef - user can view Inactive Property Activity submenu of Inactive Property menu
+[INFO ] 2026-09-08 16:00:55.845 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 16:00:55.879 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 16:00:58.228 [main] StepDef - URL opened
+[INFO ] 2026-09-08 16:00:59.216 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 16:00:59.991 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 16:01:03.067 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 16:01:03.273 [main] StepDef - User clicks on Inactive Survey menu
+[INFO ] 2026-09-08 16:01:05.424 [main] StepDef - user can view Inactive Survey submenu of Inactive Survey menu
+[INFO ] 2026-09-08 16:01:05.528 [main] StepDef - user can view Inactive Survey Activity submenu of Inactive Survey menu
+[INFO ] 2026-09-08 16:01:10.013 [main] StepDef - Setup-Regression method executed
+[INFO ] 2026-09-08 16:01:14.979 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 16:01:15.005 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 16:01:17.498 [main] StepDef - URL opened
+[INFO ] 2026-09-08 16:01:18.540 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 16:01:20.873 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 16:01:24.050 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 16:01:24.545 [main] StepDef - User clicked on super admin profile
+[INFO ] 2026-09-08 16:01:29.061 [main] StepDef - User clicked on signout button
+[INFO ] 2026-09-08 16:01:31.149 [main] StepDef - User is able to see login page of Nagar Palika Rawatsar
+[INFO ] 2026-09-08 16:01:31.164 [main] StepDef - Browser closed
+[INFO ] 2026-09-08 16:01:37.771 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 16:01:37.779 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 16:01:43.498 [main] StepDef - URL opened
+[INFO ] 2026-09-08 16:01:44.320 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 16:01:45.909 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 16:01:48.998 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 16:01:49.250 [main] StepDef - User clicks on Property Survey menu
+[INFO ] 2026-09-08 16:01:51.446 [main] StepDef - user can view Survey Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:51.589 [main] StepDef - user can view Survey Summary Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:51.735 [main] StepDef - user can view Survey Team Summary submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:51.901 [main] StepDef - user can view Survey Assessed List submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:52.057 [main] StepDef - user can view Survey Assessed Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:52.220 [main] StepDef - user can view Wardwise Survey Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:52.462 [main] StepDef - user can view Survey Pending Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:52.688 [main] StepDef - user can view Survey Level Summary Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:52.856 [main] StepDef - user can view Survey Level Summary Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:53.016 [main] StepDef - user can view Userwise Forward Summary submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:53.188 [main] StepDef - user can view Userwise Survey Edit Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:53.438 [main] StepDef - user can view Survey Modification Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:53.643 [main] StepDef - user can view Survey Geotagging Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:53.834 [main] StepDef - user can view Ex-Party Survey Notice submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:54.013 [main] StepDef - user can view Survey Notice List submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:54.284 [main] StepDef - user can view Bulk Survey Notice Print submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:54.503 [main] StepDef - user can view Survey Notice Received List submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:54.710 [main] StepDef - user can view Survey Notice Received Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:54.847 [main] StepDef - user can view Survey Notice Distributed Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:54.966 [main] StepDef - user can view Survey Demand Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:55.111 [main] StepDef - user can view Survey GIS Update submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:55.270 [main] StepDef - user can view Survey Visit Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:55.403 [main] StepDef - user can view TL Survey Visit submenu of Property Survey menu
+[INFO ] 2026-09-08 16:01:55.509 [main] StepDef - user can view TL Survey Visit Report submenu of Property Survey menu
+[INFO ] 2026-09-08 16:02:00.080 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 16:02:00.089 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 16:02:02.621 [main] StepDef - URL opened
+[INFO ] 2026-09-08 16:02:03.596 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 16:02:05.505 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 16:02:08.577 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 16:02:08.776 [main] StepDef - User clicks on UD Tax menu
+[INFO ] 2026-09-08 16:02:10.922 [main] StepDef - User is able to see Search Propety submenu
+[INFO ] 2026-09-08 16:02:11.069 [main] StepDef - User is able to see Document Upload submenu
+[INFO ] 2026-09-08 16:02:11.153 [main] StepDef - User is able to see Update Property Details submenu
+[INFO ] 2026-09-08 16:02:11.247 [main] StepDef - User is able to see Last Payment Update submenu
+[INFO ] 2026-09-08 16:02:11.354 [main] StepDef - User is able to see Update Owner Details submenu
+[INFO ] 2026-09-08 16:02:11.511 [main] StepDef - User is able to see Property Deativate submenu
+[INFO ] 2026-09-08 16:02:11.630 [main] StepDef - User is able to see Ward Update submenu
+[INFO ] 2026-09-08 16:02:11.755 [main] StepDef - User is able to see Adjustment submenu
+[INFO ] 2026-09-08 16:02:11.885 [main] StepDef - User is able to see House Tax Last Payment Update submenu
+[INFO ] 2026-09-08 16:02:11.993 [main] StepDef - User is able to see TL Property Visit submenu
+[INFO ] 2026-09-08 16:02:12.081 [main] StepDef - User is able to see DN Notice Distribution submenu
+[INFO ] 2026-09-08 16:02:17.008 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 16:02:17.031 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 16:02:19.505 [main] StepDef - URL opened
+[INFO ] 2026-09-08 16:02:20.588 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 16:02:22.664 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 16:02:25.745 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 16:02:25.978 [main] StepDef - User clicks on UD Tax Report menu
+[INFO ] 2026-09-08 16:02:28.124 [main] StepDef - user can view counter report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:28.214 [main] StepDef - user can view TC Collection Summary submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:28.377 [main] StepDef - user can view DCB Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:28.460 [main] StepDef - user can view SAF Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:28.545 [main] StepDef - user can view Zone and Ward Wise Collection Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:28.670 [main] StepDef - user can view Payment Mode Wise Collection submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:28.741 [main] StepDef - user can view ULB Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:28.832 [main] StepDef - user can view Transaction Deactivate Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:28.988 [main] StepDef - user can view ALL Module TC Summary submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:29.131 [main] StepDef - user can view Cheque Bounce Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:29.341 [main] StepDef - user can view Print All Payment Reciept submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:29.524 [main] StepDef - user can view Taxable Property Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:29.686 [main] StepDef - user can view PropertyWise DCB submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:29.864 [main] StepDef - user can view Htax DCB Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:29.998 [main] StepDef - user can view Print All Demand Reciept submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:30.133 [main] StepDef - user can view Variation Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:30.265 [main] StepDef - user can view Reassesment Diff submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:30.398 [main] StepDef - user can view Cheque Bounced Collection Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:30.519 [main] StepDef - user can view Re-verification Difference Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:30.884 [main] StepDef - user can view Tax Collection Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:31.026 [main] StepDef - user can view Appti List submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:31.261 [main] StepDef - user can view Apptti Pending Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:31.373 [main] StepDef - user can view Appti Reject List submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:31.494 [main] StepDef - user can view TC Visit Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:31.620 [main] StepDef - user can view TC Visit Summary submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:31.835 [main] StepDef - user can view Property Wise TC Visit submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:32.083 [main] StepDef - user can view TL Visit Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:32.225 [main] StepDef - user can view All Updation Report submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:32.409 [main] StepDef - user can view DN130 Distribution Reports submenu of UDTax Report menu
+[INFO ] 2026-09-08 16:02:37.408 [main] StepDef - Setup-Smoke method executed
+[INFO ] 2026-09-08 16:02:37.418 [main] StepDef - chrome browser launched
+[INFO ] 2026-09-08 16:02:39.853 [main] StepDef - URL opened
+[INFO ] 2026-09-08 16:02:40.942 [main] StepDef - username and password entered
+[INFO ] 2026-09-08 16:02:42.740 [main] StepDef - clicked on login button
+[INFO ] 2026-09-08 16:02:45.812 [main] StepDef - Test passed: Login feature: User is able to see dashboard text
+[INFO ] 2026-09-08 16:02:46.002 [main] StepDef - clicked on UD Tax Menu
+[INFO ] 2026-09-08 16:02:48.139 [main] StepDef - user can view Road Type submenu
+[INFO ] 2026-09-08 16:02:48.213 [main] StepDef - user can view Usage Type submenu
+[INFO ] 2026-09-08 16:02:48.294 [main] StepDef - user can view Usage SubCategory Master submenu
+[INFO ] 2026-09-08 16:02:48.377 [main] StepDef - user can view Sub Category Details submenu
+[INFO ] 2026-09-08 16:02:48.472 [main] StepDef - user can view DLC rate master submenu
+[INFO ] 2026-09-08 16:02:48.571 [main] StepDef - user can view DLC Search submenu

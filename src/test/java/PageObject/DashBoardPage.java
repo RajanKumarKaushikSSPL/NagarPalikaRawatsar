@@ -298,6 +298,27 @@ WebDriver ldriver;
 	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='House Tax Payment Mode Update'])[2]")
 	WebElement HouseTaxPaymentModeUpdateSubMenu;
 	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Inactive Property'])[3]")
+	WebElement InactivePropertyMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Inactive Property'])[4]")
+	WebElement InactivePropertySubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Inactive DCB'])[2]")
+	WebElement InactiveDCBSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Inactive Property Activity'])[2]")
+	WebElement InactivePropertyActivitySubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Inactive Survey'])[3]")
+	WebElement InactiveSurveyMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Inactive Survey'])[4]")
+	WebElement InactiveSurveySubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Inactive Survey Activity'])[2]")
+	WebElement InactiveSurveyActivitySubMenu;
+	
 	public void scrollToElement(WebDriver driver, WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
     }
@@ -737,6 +758,39 @@ WebDriver ldriver;
 	public boolean HouseTaxPaymentModeUpdateSubMenuisdisplayed() {
 		scrollToElement(ldriver, HouseTaxPaymentModeUpdateSubMenu);
 		return HouseTaxPaymentModeUpdateSubMenu.isDisplayed();
+	}
+	
+	public void clickOnInactivePropertyMenu() {
+		InactivePropertyMenu.click();
+	}
+	
+	public boolean InactivePropertySubMenuisdisplayed() {
+		scrollToElement(ldriver, InactivePropertySubMenu);
+		return InactivePropertySubMenu.isDisplayed();
+	}
+	
+	public boolean InactiveDCBSubMenuisdisplayed() {
+		scrollToElement(ldriver, InactiveDCBSubMenu);
+		return InactiveDCBSubMenu.isDisplayed();
+	}
+	
+	public boolean InactivePropertyActivitySubMenuisdisplayed() {
+		scrollToElement(ldriver, InactivePropertyActivitySubMenu);
+		return InactivePropertyActivitySubMenu.isDisplayed();
+	}
+	
+	public void clickOnInactiveSurveyMenu() {
+		InactiveSurveyMenu.click();
+	}
+	
+	public boolean InactiveSurveySubMenuisdisplayed() {
+		scrollToElement(ldriver, InactiveSurveySubMenu);
+		return InactiveSurveySubMenu.isDisplayed();
+	}
+	
+	public boolean InactiveSurveyActivitySubMenuisdisplayed() {
+		scrollToElement(ldriver, InactiveSurveyActivitySubMenu);
+		return InactiveSurveyActivitySubMenu.isDisplayed();
 	}
 	
 	

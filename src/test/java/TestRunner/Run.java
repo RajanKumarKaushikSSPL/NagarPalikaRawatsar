@@ -12,8 +12,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 //features={".//src/test/resources/Features/LoginFeature.feature",".//src/test/resources/Features/DashboardFeature.feature"},
 //features={".//src/test/resources/Features/UDTaxSetUp.feature"},
-features={".//src/test/resources/Features/AccountsFeature.feature"},		
-//features=".//src/test/resources/Features/",		
+//features={".//src/test/resources/Features/InactiveSurveyFeature.feature"},		
+features=".//src/test/resources/Features/",		
 glue="StepDefinition",
 dryRun=false,
 monochrome = true,
