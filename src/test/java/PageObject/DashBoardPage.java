@@ -274,6 +274,29 @@ WebDriver ldriver;
 	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='TL Survey Visit Report'])[2]")
 	WebElement TLSurveyVisitReportSubMenu;
 	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Accounts'])[2]")
+	WebElement AccountsMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Transaction Deactivate'])[2]")
+	WebElement TransactionDeactivateSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Cash verification'])[2]")
+	WebElement CashVerificationSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Bank Deposit Date Entry'])[2]")
+	WebElement BankDepositDateEntrySubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Bank Reconciliation'])[2]")
+	WebElement BankReconciliationSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='Payment Mode Update'])[2]")
+	WebElement PaymentModeUpdateSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='House Tax Transaction Deactivate'])[2]")
+	WebElement HouseTaxTransactionDeactivateSubMenu;
+	
+	@FindBy(how=How.XPATH,using="(//a[normalize-space(text())='House Tax Payment Mode Update'])[2]")
+	WebElement HouseTaxPaymentModeUpdateSubMenu;
 	
 	public void scrollToElement(WebDriver driver, WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
@@ -675,6 +698,45 @@ WebDriver ldriver;
 	public boolean TLSurveyVisitReportSubMenuisdisplayed() {
 		scrollToElement(ldriver, TLSurveyVisitReportSubMenu);
 		return TLSurveyVisitReportSubMenu.isDisplayed();
+	}
+	
+	public void clickOnAccountsMenu() {
+		AccountsMenu.click();
+	}
+	
+	public boolean TransactionDeactivateSubMenuisdisplayed() {
+		scrollToElement(ldriver, TransactionDeactivateSubMenu);
+		return TransactionDeactivateSubMenu.isDisplayed();
+	}
+	
+	public boolean CashVerificationSubMenuisdisplayed() {
+		scrollToElement(ldriver, CashVerificationSubMenu);
+		return CashVerificationSubMenu.isDisplayed();
+	}
+	
+	public boolean BankDepositDateEntrySubMenuisdisplayed() {
+		scrollToElement(ldriver, BankDepositDateEntrySubMenu);
+		return BankDepositDateEntrySubMenu.isDisplayed();
+	}
+	
+	public boolean BankReconciliationSubMenuisdisplayed() {
+		scrollToElement(ldriver, BankReconciliationSubMenu);
+		return BankReconciliationSubMenu.isDisplayed();
+	}
+	
+	public boolean PaymentModeUpdateSubMenuisdisplayed() {
+		scrollToElement(ldriver, PaymentModeUpdateSubMenu);
+		return PaymentModeUpdateSubMenu.isDisplayed();
+	}
+	
+	public boolean HouseTaxTransactionDeactivateSubMenuisdisplayed() {
+		scrollToElement(ldriver, HouseTaxTransactionDeactivateSubMenu);
+		return HouseTaxTransactionDeactivateSubMenu.isDisplayed();
+	}
+	
+	public boolean HouseTaxPaymentModeUpdateSubMenuisdisplayed() {
+		scrollToElement(ldriver, HouseTaxPaymentModeUpdateSubMenu);
+		return HouseTaxPaymentModeUpdateSubMenu.isDisplayed();
 	}
 	
 	
