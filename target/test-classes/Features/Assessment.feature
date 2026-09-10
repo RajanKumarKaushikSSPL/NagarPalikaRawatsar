@@ -17,4 +17,38 @@ Background: Steps common for all Assessment menu feature
  Then User is able to see Legacy Entry submenu
  Then User is able to see Edit New Assessment submenu
  
+ @Regression
+ Scenario: To apply House Tax Entry
+ When User clicks on Assessment menu
+ And User clicks on House Tax Entry submenu of Assessment menu
+ Then User can see House Tax Entry page
+ When User enters property details
+ And User enters permanent address
+ And User enters current address
+ And User enters owner details 
+ And User enters floor details 
+ And User enters demand details
+ And User clicks on view button 
+ Then User can see House Tax Entry View Page
+ When User clicks on save button  
+ Then User can see House Tax Payment page
+ When User enters payment details 
+ And User clicks on pay now button
+ Then User can see House Tax Payment Receipt Page 
+ 
+ @Regression
+ Scenario: To apply Legacy Entry
+ When User clicks on Assessment menu
+ And User clicks on Legacy Entry submenu of Assessment menu
+ Then User can see Legacy Entry page 
+ When User enters property details of Legacy Entry submenu
+ And User enters permanent address of Legacy Entry submenu
+ And User enters current address of Legacy Entry submenu
+ And User enters owner details of Legacy Entry submenu
+ And User enters tax details of Legacy Entry submenu
+ And User clicks on save button of Legacy Entry submenu  
+ Then User can see confirmation message
+ 
+
+ 
   

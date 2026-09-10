@@ -793,6 +793,14 @@ WebDriver ldriver;
 		return InactiveSurveyActivitySubMenu.isDisplayed();
 	}
 	
+	public void clickOnHouseTaxEntrySubMenu() {
+		HouseTaxEntrySubMenu.click();
+	}
+	
+	public void clickOnLegacyEntrySubMenu() {
+		LegacyEntrySubMenu.click();
+	}
+	
 	
 	
 	

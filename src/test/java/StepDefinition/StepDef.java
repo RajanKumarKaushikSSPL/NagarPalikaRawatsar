@@ -21,6 +21,11 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 import PageObject.BOHDashBoardPage;
 import PageObject.DashBoardPage;
+import PageObject.HouseTaxEntryPage;
+import PageObject.HouseTaxEntryViewPage;
+import PageObject.HouseTaxPaymentPage;
+import PageObject.HouseTaxPaymentReceiptPage;
+import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
 import PageObject.WorkReportDashBoardPage;
 import Utilities.ReadConfig;
@@ -237,8 +242,11 @@ case "chrome":
 	    dashboardPg=new DashBoardPage(driver);
 	    workreportdashboardPg=new WorkReportDashBoardPage(driver);
 	    bohdashboardPg=new BOHDashBoardPage(driver);
-	    
-	    
+	    housetaxentryPg=new HouseTaxEntryPage(driver);
+	    housetaxentryviewPg= new HouseTaxEntryViewPage(driver) ;
+	    housetaxpaymentPg=new HouseTaxPaymentPage(driver) ;
+	    housetaxpaymentreceiptPg=new HouseTaxPaymentReceiptPage(driver);
+	    legacyentrypg=new LegacyEntryPage(driver);
 	    log.info("chrome browser launched");
 	}
 

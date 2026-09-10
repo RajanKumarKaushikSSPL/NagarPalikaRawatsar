@@ -21,6 +21,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import PageObject.BOHDashBoardPage;
 
 import PageObject.DashBoardPage;
+import PageObject.HouseTaxEntryPage;
+import PageObject.HouseTaxEntryViewPage;
+import PageObject.HouseTaxPaymentPage;
+import PageObject.HouseTaxPaymentReceiptPage;
+import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
 import PageObject.WorkReportDashBoardPage;
 import Utilities.ReadConfig;
@@ -35,10 +40,13 @@ public class BaseClass {
 	public static DashBoardPage dashboardPg; 
 	public static WorkReportDashBoardPage workreportdashboardPg;
 	public static BOHDashBoardPage bohdashboardPg;
+	public static HouseTaxEntryPage housetaxentryPg;
+	public static HouseTaxEntryViewPage housetaxentryviewPg;
+	public static HouseTaxPaymentPage housetaxpaymentPg;
+	public static HouseTaxPaymentReceiptPage housetaxpaymentreceiptPg;
+	public static LegacyEntryPage legacyentrypg;
 	public static Logger log;
 	public ReadConfig readConfig;
-	
-	
 	
 	
 	public String randomString(){
