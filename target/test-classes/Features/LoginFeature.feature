@@ -22,22 +22,19 @@ Scenario Outline: Successful Login With different Credentials DDT
    #When User opens URL "http://192.168.1.20:94/system/login/"
    And User enters Username as "<user_name>" and password as "<password>"
    And click on Login button
-   Then User should be able to see "Dashboard" text
-   When User clicks on super admin profile
-   And User clicks on signout button
-   Then Page Title should be "Nagar Palika Rawatsar"
-   And close browser
+   Then dashboard visibility should be "<dashboardVisible>"
+   
    
  Examples:
- |user_name|password|
- |super_admin|12345|
- |superadmin|12345987|
- |super_admin|123459878|
- |superadmin|123459878|
- |          |12345987|
- |super_admin|       |
- |          |       |
- |          |123459878|
- |superadmin|         |
+ |user_name|password|dashboardVisible|
+ |super_admin|12345|true|
+ |superadmin|12345987|false|
+ |super_admin|123459878|false|
+ |superadmin|123459878|false|
+ |          |12345987|false|
+ |super_admin|       |false|
+ |          |       |false|
+ |          |123459878|false|
+ |superadmin|         |false|
  
    

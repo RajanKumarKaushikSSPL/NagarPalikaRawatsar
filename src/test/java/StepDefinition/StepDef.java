@@ -27,6 +27,8 @@ import PageObject.HouseTaxPaymentPage;
 import PageObject.HouseTaxPaymentReceiptPage;
 import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
+import PageObject.PropertyListPage;
+import PageObject.SearchPropertyPage;
 import PageObject.WorkReportDashBoardPage;
 import Utilities.ReadConfig;
 import io.cucumber.java.After;
@@ -247,6 +249,8 @@ case "chrome":
 	    housetaxpaymentPg=new HouseTaxPaymentPage(driver) ;
 	    housetaxpaymentreceiptPg=new HouseTaxPaymentReceiptPage(driver);
 	    legacyentrypg=new LegacyEntryPage(driver);
+	    searchpropertyPg=new SearchPropertyPage(driver) ;
+	    propertylistPg=new PropertyListPage(driver) ;
 	    log.info("chrome browser launched");
 	}
 
@@ -321,6 +325,35 @@ case "chrome":
 	    }else {
 	    	log.warn("User is not able to see login page of Nagar Palika Rawatsar");
 	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	@Then("dashboard visibility should be {string}")
+	public void dashboard_visibility_should_be(String expectedVisibility) {
+		boolean expected = Boolean.parseBoolean(expectedVisibility);
+	    boolean actual=dashboardPg.isDashboardDisplayed();
+	    if(expected) {
+	    	// Successful login is expected
+	        if (actual) {
+	            log.info("LOGIN SUCCESSFUL - Dashboard is displayed as expected.");
+	            Assert.assertTrue(true);
+	        } else {
+	            log.warn("LOGIN FAILED - Dashboard is not displayed for valid credentials.");
+	            Assert.assertTrue(false);
+	        }
+	        //Assert.assertTrue(actual);
+	    }else {
+
+	        // Unsuccessful login is expected
+	        if (!actual) {
+	            log.info("LOGIN UNSUCCESSFUL - Dashboard is not displayed as expected.");
+	            Assert.assertTrue(true);
+	        } else {
+	            log.warn("LOGIN FAILED - Dashboard is displayed for invalid/blank credentials.");
+	            Assert.assertTrue(false);
+	        }
+	        
+	        //Assert.assertFalse(actual);
 	    }
 	}
 

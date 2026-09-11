@@ -328,6 +328,15 @@ WebDriver ldriver;
 		return DashBoardPlainText.getText();
 	}
 	
+	public boolean isDashboardDisplayed() {
+        try {
+	        return DashBoardPlainText.isDisplayed();
+	    } catch (Exception e) {
+	        return false;
+	    }
+	}
+
+	
 	public void clickOnSuperAdminProfile() {
 		SuperAdminProfile.click();
 	}
@@ -799,6 +808,26 @@ WebDriver ldriver;
 	
 	public void clickOnLegacyEntrySubMenu() {
 		LegacyEntrySubMenu.click();
+	}
+	
+	public void clickOnSearchPropertySubMenu() {
+		SearchPropertySubMenu.click();
+	}
+	
+	public void clickOnDocumentUploadSubMenu() {
+		DocumentUploadSubMenu.click();
+	}
+	
+	public void clickOnUpdatePropertyDetailsSubMenu() {
+		UpdatePropertyDetailsSubMenu.click();
+	}
+	
+	public void clickOnLastPaymentUpdateSubMenu() {
+		LastPaymentUpdateSubMenu.click();
+	}
+	
+	public void clickOnUpdateOwnerDetailsSubMenu() {
+		UpdateOwnerDetailsSubMenu.click();
 	}
 	
 	

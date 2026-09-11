@@ -22,3 +22,51 @@ Background: Steps common for all UDTax menu feature
  Then User is able to see TL Property Visit submenu
  Then User is able to see DN Notice Distribution submenu
  
+ @Regression
+ Scenario: Search Property Functionality
+ When User clicks on UD Tax menu 
+ And user clicks on search property submenu
+ Then user can see search property page 
+ When user select ward no.
+ And user click on search button 
+ Then user can see property list page 
+ 
+ @Regression
+ Scenario: Document Upload Functionality
+ When User clicks on UD Tax menu 
+ And user clicks on document upload submenu
+ Then user can see search property page 
+ When user select ward no.
+ And user click on search button 
+ Then user can see property list page 
+ 
+ @Regression
+ Scenario: Update Property Details Functionality
+ When User clicks on UD Tax menu 
+ And user clicks on update property details submenu
+ Then user can see search property page 
+ When user select ward no.
+ And user click on search button 
+ Then user can see property list page 
+ 
+ @Regression
+ Scenario: Last Payment Update Functionality
+ When User clicks on UD Tax menu 
+ And user clicks on last payment update submenu
+ Then user can see search property page 
+ When user select ward no.
+ And user click on search button 
+ Then user can see property list page 
+ 
+ @Regression
+ Scenario: Update Owner Details Functionality
+ When User clicks on UD Tax menu 
+ And user clicks on update owner details submenu
+ Then user can see search property page 
+ When user select ward no.
+ And user click on search button 
+ Then user can see property list page 
+  
+
+
+ 

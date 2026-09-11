@@ -138,4 +138,87 @@ public class UDTaxStepDef extends BaseClass {
 	    	Assert.assertTrue(false);
 	    }
 	}
+	
+	///////////////////Search Property Functionality///////////////////////////
+	
+	@When("user clicks on search property submenu")
+	public void user_clicks_on_search_property_submenu() throws InterruptedException {
+	    dashboardPg.clickOnSearchPropertySubMenu();
+	    log.info("user clicks on search property submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see search property page")
+	public void user_can_see_search_property_page() {
+	    String expTitle="Search Property";
+	    String actTitle=searchpropertyPg.getSearchPropertyPageText();
+	    if(expTitle.equals(actTitle)) {
+	    	log.info("user can see search property page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see search property page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user select ward no.")
+	public void user_select_ward_no() {
+	    searchpropertyPg.selectWardNoDropDown("1");
+	    log.info("user select ward no.");
+	}
+
+	@When("user click on search button")
+	public void user_click_on_search_button() {
+	    searchpropertyPg.clickOnSearchBtn();
+	    log.info("user click on search button");
+	    //Thread.sleep(2000);
+	}
+
+	@Then("user can see property list page")
+	public void user_can_see_property_list_page() {
+	    String expTitle="Property List";
+	    String actTitle=propertylistPg.getPropertyListPageText();
+	    if(expTitle.equals(actTitle)) {
+	    	log.info("user can see property list page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see property list page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	///////////////////Document Upload Functionality//////////////////
+	@When("user clicks on document upload submenu")
+	public void user_clicks_on_document_upload_submenu() throws InterruptedException {
+	    dashboardPg.clickOnDocumentUploadSubMenu();
+	    log.info("user clicks on document upload submenu");
+	    Thread.sleep(2000);
+	}
+	
+	////////////////////Update Property Details Functionality//////////////////
+	@When("user clicks on update property details submenu")
+	public void user_clicks_on_update_property_details_submenu() throws InterruptedException {
+		dashboardPg.clickOnUpdatePropertyDetailsSubMenu();
+	    log.info("user clicks on update property details submenu");
+	    Thread.sleep(2000);
+	}
+	
+	/////////////////////Last Payment Update Functionality//////////////////////
+	@When("user clicks on last payment update submenu")
+	public void user_clicks_on_last_payment_update_submenu() throws InterruptedException {
+		dashboardPg.clickOnLastPaymentUpdateSubMenu();
+	    log.info("user clicks on last payment update submenu");
+	    Thread.sleep(2000);
+	}
+	
+	///////////////////////Update Owner Details Functionality//////////////////
+	@When("user clicks on update owner details submenu")
+	public void user_clicks_on_update_owner_details_submenu() throws InterruptedException {
+		dashboardPg.clickOnUpdateOwnerDetailsSubMenu();;
+	    log.info("user clicks on update owner details submenu");
+	    Thread.sleep(2000);
+	}
+
+
+	
 }

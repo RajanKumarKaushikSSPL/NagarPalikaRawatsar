@@ -27,6 +27,8 @@ import PageObject.HouseTaxPaymentPage;
 import PageObject.HouseTaxPaymentReceiptPage;
 import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
+import PageObject.PropertyListPage;
+import PageObject.SearchPropertyPage;
 import PageObject.WorkReportDashBoardPage;
 import Utilities.ReadConfig;
 import io.cucumber.java.Before;
@@ -45,6 +47,8 @@ public class BaseClass {
 	public static HouseTaxPaymentPage housetaxpaymentPg;
 	public static HouseTaxPaymentReceiptPage housetaxpaymentreceiptPg;
 	public static LegacyEntryPage legacyentrypg;
+	public static SearchPropertyPage searchpropertyPg;
+	public static PropertyListPage propertylistPg;
 	public static Logger log;
 	public ReadConfig readConfig;
 	
