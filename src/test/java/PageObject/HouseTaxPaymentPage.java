@@ -24,7 +24,7 @@ WebDriver ldriver;
 	@FindBy(how=How.XPATH,using="//input[@id='id_cheque_dt']")
 	WebElement RefDateTextBox;
 	
-	@FindBy(how=How.XPATH,using="//td[@class='tcalToday tcalSelected']")
+	@FindBy(how=How.XPATH,using="//td[contains(@class, 'tcalToday')]")
 	WebElement TodayDate;
 	
 	@FindBy(how=How.XPATH,using="//input[@id='id_bank_name']")

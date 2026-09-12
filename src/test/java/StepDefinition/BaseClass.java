@@ -19,7 +19,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import PageObject.BOHDashBoardPage;
-
+import PageObject.CounterReportPage;
 import PageObject.DashBoardPage;
 import PageObject.HouseTaxEntryPage;
 import PageObject.HouseTaxEntryViewPage;
@@ -29,6 +29,7 @@ import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
 import PageObject.PropertyListPage;
 import PageObject.SearchPropertyPage;
+import PageObject.TCCollectionSummaryPage;
 import PageObject.WorkReportDashBoardPage;
 import Utilities.ReadConfig;
 import io.cucumber.java.Before;
@@ -49,6 +50,8 @@ public class BaseClass {
 	public static LegacyEntryPage legacyentrypg;
 	public static SearchPropertyPage searchpropertyPg;
 	public static PropertyListPage propertylistPg;
+	public static CounterReportPage counterreportPg;
+	public static TCCollectionSummaryPage tccollectionsummaryPg;
 	public static Logger log;
 	public ReadConfig readConfig;
 	

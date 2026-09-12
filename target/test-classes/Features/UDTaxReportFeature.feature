@@ -41,4 +41,21 @@ Scenario: UD Tax Report menu contains all submenus
    And  user can view All Updation Report submenu of UDTax Report menu
    And  user can view DN130 Distribution Reports submenu of UDTax Report menu
    
+ @Regression
+ Scenario: Counter Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on counter report submenu
+ Then user can see counter report page 
+ When user clicks on search button 
+ Then user can see report
+ 
+ @Regression
+ Scenario: TC Collection Summary Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on TC collection summary submenu
+ Then user can see TC collection summary page 
+ When user clicks on search button of TC collection summary page
+ Then user can see report of TC collection summary page
+    
+   
    

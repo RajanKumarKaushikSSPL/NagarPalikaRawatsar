@@ -830,6 +830,39 @@ WebDriver ldriver;
 		UpdateOwnerDetailsSubMenu.click();
 	}
 	
+	public void clickOnPropertyDeactivateSubMenu() {
+		PropertyDeactivateSubMenu.click();
+	}
+	
+	public void clickOnWardUpdateSubMenu() {
+		WardUpdateSubMenu.click();
+	}
+	
+	public void clickOnAdjustmentSubMenu() {
+		AdjustmentSubMenu.click();
+	}
+	
+	public void clickOnHouseTaxLastPaymentUpdateSubMenu() {
+		HouseTaxLastPaymentUpdateSubMenu.click();
+	}
+	
+	public void clickOnDNNoticeDistributionSubMenu() {
+		scrollToElement(ldriver, DNNoticeDistributionSubMenu);
+		DNNoticeDistributionSubMenu.click();
+	}
+	
+	public void clickOnCounterReportSubMenu() {
+		scrollToElement(ldriver, CounterReportSubMenu);
+		CounterReportSubMenu.click();
+	}
+	
+	public void clickOnTCCollectionSummarySubMenu() {
+		scrollToElement(ldriver, TCCollectionSummarySubMenu);
+		TCCollectionSummarySubMenu.click();
+	}
+	
+	
+	
 	
 	
 	

@@ -336,6 +336,79 @@ public class UDTaxReportStepDef extends BaseClass {
 	    	Assert.assertTrue(false);
 	    }
 	}
+	
+	/////////////////////////////Counter Report Functionality////////////////////////////////////
+	@When("user clicks on counter report submenu")
+	public void user_clicks_on_counter_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnCounterReportSubMenu();
+	    log.info("user clicks on counter report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see counter report page")
+	public void user_can_see_counter_report_page() {
+	    if(counterreportPg.counterReportPlainTextDisplayed()) {
+	       log.info("user can see counter report page");
+	       Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see counter report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button")
+	public void user_clicks_on_search_button() {
+	    counterreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button");
+	}
+
+	@Then("user can see report")
+	public void user_can_see_report() {
+		if(counterreportPg.reportPlainTextDisplayed()) {
+		       log.info("user can see report");
+		       Assert.assertTrue(true);
+		    }else {
+		    	log.warn("user can not see report");
+		    	Assert.assertTrue(false);
+		    }
+	}
+	
+	/////////////////////TC Collection Summary Functionality////////////////////
+	@When("user clicks on TC collection summary submenu")
+	public void user_clicks_on_tc_collection_summary_submenu() throws InterruptedException {
+	    dashboardPg.clickOnTCCollectionSummarySubMenu();
+	    log.info("user clicks on TC collection summary submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see TC collection summary page")
+	public void user_can_see_tc_collection_summary_page() {
+	    if(tccollectionsummaryPg.TCCollectionSummaryPlainTextDisplayed()) {
+	    	log.info("user can see TC collection summary page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see TC collection summary page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of TC collection summary page")
+	public void user_clicks_on_search_button_of_tc_collection_summary_page() {
+	    tccollectionsummaryPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of TC collection summary page");
+	}
+
+	@Then("user can see report of TC collection summary page")
+	public void user_can_see_report_of_tc_collection_summary_page() {
+	    if(tccollectionsummaryPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of TC collection summary page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of TC collection summary page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
 
 	
 }

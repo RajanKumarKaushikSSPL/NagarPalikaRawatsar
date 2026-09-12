@@ -218,7 +218,46 @@ public class UDTaxStepDef extends BaseClass {
 	    log.info("user clicks on update owner details submenu");
 	    Thread.sleep(2000);
 	}
-
+	
+	/////////////////////////Property Deactivate Functionality/////////////////////
+	@When("user clicks on property deactivate submenu")
+	public void user_clicks_on_property_deactivate_submenu() throws InterruptedException {
+	    dashboardPg.clickOnPropertyDeactivateSubMenu();
+	    log.info("user clicks on property deactivate submenu");
+	    Thread.sleep(2000);
+	}
+	
+	////////////////////////Ward Update Functionality/////////////////////////////
+	@When("user clicks on ward update submenu")
+	public void user_clicks_on_ward_update_submenu() throws InterruptedException {
+		dashboardPg.clickOnWardUpdateSubMenu();
+	    log.info("user clicks on ward update submenu");
+	    Thread.sleep(2000);
+	}
+	
+	////////////////////////Adjustment Functionality//////////////////////////////
+	@When("user clicks on adjustment submenu")
+	public void user_clicks_on_adjustment_submenu() throws InterruptedException {
+		dashboardPg.clickOnAdjustmentSubMenu();
+	    log.info("user clicks on ward update submenu");
+	    Thread.sleep(2000);
+	}
+	
+	//////////////////////House Tax Last Payment Update Functionality//////////////
+	@When("user clicks on house tax last payment update submenu")
+	public void user_clicks_on_house_tax_last_payment_update_submenu() throws InterruptedException {
+		dashboardPg.clickOnHouseTaxLastPaymentUpdateSubMenu();
+	    log.info("user clicks on house tax last payment update submenu");
+	    Thread.sleep(2000);
+	}
+	
+	////////////////////////DN Notice Distribution Functionality///////////////////
+	@When("user clicks on DN notice distribution submenu")
+	public void user_clicks_on_dn_notice_distribution_submenu() throws InterruptedException {
+		dashboardPg.clickOnDNNoticeDistributionSubMenu();
+	    log.info("user clicks on DN notice distribution submenu");
+	    Thread.sleep(2000);
+	}
 
 	
 }

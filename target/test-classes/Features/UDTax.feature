@@ -66,6 +66,51 @@ Background: Steps common for all UDTax menu feature
  When user select ward no.
  And user click on search button 
  Then user can see property list page 
+ 
+ @Regression
+ Scenario: Property Deactivate Functionality
+ When User clicks on UD Tax menu 
+ And user clicks on property deactivate submenu
+ Then user can see search property page 
+ When user select ward no.
+ And user click on search button 
+ Then user can see property list page 
+ 
+ @Regression
+ Scenario: Ward Update Functionality
+ When User clicks on UD Tax menu 
+ And user clicks on ward update submenu
+ Then user can see search property page 
+ When user select ward no.
+ And user click on search button 
+ Then user can see property list page 
+ 
+ @Regression
+ Scenario: Adjustment Functionality
+ When User clicks on UD Tax menu 
+ And user clicks on adjustment submenu
+ Then user can see search property page 
+ When user select ward no.
+ And user click on search button 
+ Then user can see property list page
+ 
+ @Regression
+ Scenario: House Tax Last Payment Update Functionality
+ When User clicks on UD Tax menu 
+ And user clicks on house tax last payment update submenu
+ Then user can see search property page 
+ When user select ward no.
+ And user click on search button 
+ Then user can see property list page
+ 
+ @Regression
+ Scenario: DN Notice Distribution Functionality
+ When User clicks on UD Tax menu 
+ And user clicks on DN notice distribution submenu
+ Then user can see search property page 
+ When user select ward no.
+ And user click on search button 
+ Then user can see property list page
   
 
 
