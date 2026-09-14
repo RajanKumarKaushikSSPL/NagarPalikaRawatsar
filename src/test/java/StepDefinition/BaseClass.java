@@ -20,6 +20,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import PageObject.BOHDashBoardPage;
 import PageObject.CounterReportPage;
+import PageObject.DCBULBWisePage;
 import PageObject.DashBoardPage;
 import PageObject.HouseTaxEntryPage;
 import PageObject.HouseTaxEntryViewPage;
@@ -28,6 +29,7 @@ import PageObject.HouseTaxPaymentReceiptPage;
 import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
 import PageObject.PropertyListPage;
+import PageObject.SafReportPage;
 import PageObject.SearchPropertyPage;
 import PageObject.TCCollectionSummaryPage;
 import PageObject.WorkReportDashBoardPage;
@@ -52,6 +54,8 @@ public class BaseClass {
 	public static PropertyListPage propertylistPg;
 	public static CounterReportPage counterreportPg;
 	public static TCCollectionSummaryPage tccollectionsummaryPg;
+	public static DCBULBWisePage dcbulbwisePg;
+	public static SafReportPage safreportPg;
 	public static Logger log;
 	public ReadConfig readConfig;
 	

@@ -56,6 +56,24 @@ Scenario: UD Tax Report menu contains all submenus
  Then user can see TC collection summary page 
  When user clicks on search button of TC collection summary page
  Then user can see report of TC collection summary page
+ 
+ @Regression
+ Scenario: DCB Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on DCB Report submenu
+ Then user can see DCB ULB Wise page 
+ When user clicks on search button of DCB ULB Wise page
+ Then user can see total demand and total collection of DCB ULB Wise page
+ 
+ @Regression
+ Scenario: SAF Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on SAF Report submenu
+ Then user can see saf Report page 
+ When user clicks on search button of saf Report page
+ Then user can see property tax plain text of saf Report page
+ 
+ 
     
    
    

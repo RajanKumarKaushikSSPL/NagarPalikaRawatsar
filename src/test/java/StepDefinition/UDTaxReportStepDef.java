@@ -2,6 +2,7 @@ package StepDefinition;
 
 import org.testng.Assert;
 
+import PageObject.SafReportPage;
 import io.cucumber.java.en.*;
 
 public class UDTaxReportStepDef extends BaseClass {
@@ -407,6 +408,79 @@ public class UDTaxReportStepDef extends BaseClass {
 	    	log.warn("user can not see report of TC collection summary page");
 	    	Assert.assertTrue(false);
 	    }
+	}
+	
+	////////////////////////DCB Report Functionality/////////////////////////////
+	@When("user clicks on DCB Report submenu")
+	public void user_clicks_on_dcb_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnDCBReportSubMenu();
+	    log.info("user clicks on DCB Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see DCB ULB Wise page")
+	public void user_can_see_dcb_ulb_wise_page() {
+	    if(dcbulbwisePg.DCBULBWisePlainTextDisplayed()) {
+	       log.info("user can see DCB ULB Wise page");
+	       Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see DCB ULB Wise page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of DCB ULB Wise page")
+	public void user_clicks_on_search_button_of_dcb_ulb_wise_page() throws InterruptedException {
+	    dcbulbwisePg.clickOnSearchBtn();
+	    log.info("user clicks on search button of DCB ULB Wise page");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see total demand and total collection of DCB ULB Wise page")
+	public void user_can_see_total_demand_and_total_collection_of_dcb_ulb_wise_page() {
+	    if(dcbulbwisePg.totalDemandPlainTextDisplayed()&&dcbulbwisePg.totalCollectionPlainTextDisplayed()) {
+	    	log.info("user can see total demand and total collection of DCB ULB Wise page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see total demand and total collection of DCB ULB Wise page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	///////////////////////////////SAF Report Functionality//////////////////////////////////////
+	@When("user clicks on SAF Report submenu")
+	public void user_clicks_on_saf_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnSAFReportSubMenu();
+	    log.info("user clicks on SAF Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see saf Report page")
+	public void user_can_see_saf_report_page() {
+	    if(safreportPg.SafReportPlainTextDisplayed()) {
+	       log.info("user can see saf Report page");
+	       Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see saf Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of saf Report page")
+	public void user_clicks_on_search_button_of_saf_report_page() {
+	    safreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of saf Report page");
+	}
+
+	@Then("user can see property tax plain text of saf Report page")
+	public void user_can_see_property_tax_plain_text_of_saf_report_page() {
+		if(safreportPg.propertyTaxPlainTextDisplayed()) {
+		       log.info("user can see property tax plain text of saf Report page");
+		       Assert.assertTrue(true);
+		    }else {
+		    	log.warn("user can not see property tax plain text of saf Report page");
+		    	Assert.assertTrue(false);
+		    }
 	}
 
 

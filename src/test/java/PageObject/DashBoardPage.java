@@ -861,6 +861,15 @@ WebDriver ldriver;
 		TCCollectionSummarySubMenu.click();
 	}
 	
+	public void clickOnDCBReportSubMenu() {
+		scrollToElement(ldriver, DCBReportSubMenu);
+		DCBReportSubMenu.click();
+	}
+	
+	public void clickOnSAFReportSubMenu() {
+		scrollToElement(ldriver, SAFReportSubMenu);
+		SAFReportSubMenu.click();
+	}
 	
 	
 	

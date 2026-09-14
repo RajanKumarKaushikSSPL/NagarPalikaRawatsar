@@ -21,6 +21,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 import PageObject.BOHDashBoardPage;
 import PageObject.CounterReportPage;
+import PageObject.DCBULBWisePage;
 import PageObject.DashBoardPage;
 import PageObject.HouseTaxEntryPage;
 import PageObject.HouseTaxEntryViewPage;
@@ -29,6 +30,7 @@ import PageObject.HouseTaxPaymentReceiptPage;
 import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
 import PageObject.PropertyListPage;
+import PageObject.SafReportPage;
 import PageObject.SearchPropertyPage;
 import PageObject.TCCollectionSummaryPage;
 import PageObject.WorkReportDashBoardPage;
@@ -255,6 +257,8 @@ case "chrome":
 	    propertylistPg=new PropertyListPage(driver) ;
 	    counterreportPg=new CounterReportPage(driver);
 	    tccollectionsummaryPg=new TCCollectionSummaryPage(driver);
+	    dcbulbwisePg=new DCBULBWisePage(driver);
+	    safreportPg=new SafReportPage(driver);
 	    log.info("chrome browser launched");
 	}
 
