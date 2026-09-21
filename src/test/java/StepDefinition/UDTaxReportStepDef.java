@@ -482,6 +482,117 @@ public class UDTaxReportStepDef extends BaseClass {
 		    	Assert.assertTrue(false);
 		    }
 	}
+	
+	/////////////////////////Zone and Ward Wise Collection Report Functionality////////////////////////////////
+	@When("user clicks on Zone and Ward Wise Collection submenu")
+	public void user_clicks_on_zone_and_ward_wise_collection_submenu() throws InterruptedException {
+	    dashboardPg.clickOnZoneAndWardWiseCollectionReportSubMenu();
+	    log.info("user clicks on Zone and Ward Wise Collection submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Ward Wise Collection Rpt page")
+	public void user_can_see_ward_wise_collection_rpt_page() {
+	    if(wardwisecollectionrptPg.wardWiseCollectionRptPlainTextDisplayed()) {
+	    	log.info("user can see Ward Wise Collection Rpt page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Ward Wise Collection Rpt page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Ward Wise Collection Rpt page")
+	public void user_clicks_on_search_button_of_ward_wise_collection_rpt_page() throws InterruptedException {
+	    wardwisecollectionrptPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Ward Wise Collection Rpt page");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see report of Ward Wise Collection Rpt page")
+	public void user_can_see_report_of_ward_wise_collection_rpt_page() {
+		if(wardwisecollectionrptPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Ward Wise Collection Rpt page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Ward Wise Collection Rpt page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	/////////////////////Payment Mode Wise Collection Functionality//////////////////////
+	@When("user clicks on Payment Mode Wise Collection submenu")
+	public void user_clicks_on_payment_mode_wise_collection_submenu() throws InterruptedException {
+	    dashboardPg.clickOnPaymentModeWiseCollectionSubMenu();
+	    log.info("user clicks on Payment Mode Wise Collection submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Payment Mode Wise Coll page")
+	public void user_can_see_payment_mode_wise_coll_page() {
+	    if(paymentmodewisecollpg.paymentModeWiseCollPlainTextDisplayed()) {
+	       log.info("user can see Payment Mode Wise Coll page");
+	       Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Payment Mode Wise Coll page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Payment Mode Wise Coll page")
+	public void user_clicks_on_search_button_of_payment_mode_wise_coll_page() throws InterruptedException {
+	    paymentmodewisecollpg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Payment Mode Wise Coll page");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see report of Payment Mode Wise Coll page")
+	public void user_can_see_report_of_payment_mode_wise_coll_page() {
+		if(paymentmodewisecollpg.reportPlainTextDisplayed()) {
+		       log.info("user can see report of Payment Mode Wise Coll page");
+		       Assert.assertTrue(true);
+		    }else {
+		    	log.warn("user can not see report of Payment Mode Wise Coll page");
+		    	Assert.assertTrue(false);
+		    }
+	}
+	
+	///////////////////////ULB Report Functionality///////////////////////////////
+	@When("user clicks on ULB Report submenu")
+	public void user_clicks_on_ulb_report_submenu() throws InterruptedException {
+	   dashboardPg.clickOnULBReportSubMenu();
+	   log.info("user clicks on ULB Report submenu");
+	   Thread.sleep(2000);
+	}
+
+	@Then("user can see All Module Report page")
+	public void user_can_see_all_module_report_page() {
+	    if(allmodulereportpg.allModuleReportPlainTextDisplayed()) {
+	       log.info("user can see All Module Report page");
+	       Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see All Module Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of All Module Report page")
+	public void user_clicks_on_search_button_of_all_module_report_page() {
+	    allmodulereportpg.clickOnSearchBtn();
+	    log.info("user clicks on search button of All Module Report page");
+	}
+
+	@Then("user can see report of All Module Report page")
+	public void user_can_see_report_of_all_module_report_page() {
+	    if(allmodulereportpg.reportPlainTextDisplayed()) {
+	       log.info("user can see report of All Module Report page");
+	       Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of All Module Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
 
 
 	

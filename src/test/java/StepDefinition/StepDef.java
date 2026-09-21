@@ -19,6 +19,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+import PageObject.AllModuleReportPage;
 import PageObject.BOHDashBoardPage;
 import PageObject.CounterReportPage;
 import PageObject.DCBULBWisePage;
@@ -29,10 +30,12 @@ import PageObject.HouseTaxPaymentPage;
 import PageObject.HouseTaxPaymentReceiptPage;
 import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
+import PageObject.PaymentModeWiseCollPage;
 import PageObject.PropertyListPage;
 import PageObject.SafReportPage;
 import PageObject.SearchPropertyPage;
 import PageObject.TCCollectionSummaryPage;
+import PageObject.WardWiseCollectionRptPage;
 import PageObject.WorkReportDashBoardPage;
 import Utilities.ReadConfig;
 import io.cucumber.java.After;
@@ -259,6 +262,9 @@ case "chrome":
 	    tccollectionsummaryPg=new TCCollectionSummaryPage(driver);
 	    dcbulbwisePg=new DCBULBWisePage(driver);
 	    safreportPg=new SafReportPage(driver);
+	    wardwisecollectionrptPg=new WardWiseCollectionRptPage(driver);
+	    paymentmodewisecollpg=new PaymentModeWiseCollPage(driver);
+	    allmodulereportpg=new AllModuleReportPage(driver);
 	    log.info("chrome browser launched");
 	}
 

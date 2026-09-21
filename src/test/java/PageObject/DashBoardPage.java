@@ -871,6 +871,21 @@ WebDriver ldriver;
 		SAFReportSubMenu.click();
 	}
 	
+	public void clickOnZoneAndWardWiseCollectionReportSubMenu() {
+		scrollToElement(ldriver, ZoneAndWardWiseCollectionReportSubMenu);
+		ZoneAndWardWiseCollectionReportSubMenu.click();
+	}
+	
+	public void clickOnPaymentModeWiseCollectionSubMenu() {
+		scrollToElement(ldriver, PaymentModeWiseCollectionSubMenu);
+		PaymentModeWiseCollectionSubMenu.click();
+	}
+	
+	public void clickOnULBReportSubMenu() {
+		scrollToElement(ldriver, ULBReportSubMenu);
+		ULBReportSubMenu.click();
+	}
+	
 	
 	
 	

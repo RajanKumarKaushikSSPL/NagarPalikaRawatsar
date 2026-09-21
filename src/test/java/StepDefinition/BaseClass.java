@@ -18,6 +18,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import PageObject.AllModuleReportPage;
 import PageObject.BOHDashBoardPage;
 import PageObject.CounterReportPage;
 import PageObject.DCBULBWisePage;
@@ -28,10 +29,12 @@ import PageObject.HouseTaxPaymentPage;
 import PageObject.HouseTaxPaymentReceiptPage;
 import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
+import PageObject.PaymentModeWiseCollPage;
 import PageObject.PropertyListPage;
 import PageObject.SafReportPage;
 import PageObject.SearchPropertyPage;
 import PageObject.TCCollectionSummaryPage;
+import PageObject.WardWiseCollectionRptPage;
 import PageObject.WorkReportDashBoardPage;
 import Utilities.ReadConfig;
 import io.cucumber.java.Before;
@@ -56,6 +59,9 @@ public class BaseClass {
 	public static TCCollectionSummaryPage tccollectionsummaryPg;
 	public static DCBULBWisePage dcbulbwisePg;
 	public static SafReportPage safreportPg;
+	public static WardWiseCollectionRptPage wardwisecollectionrptPg;
+	public static PaymentModeWiseCollPage paymentmodewisecollpg;
+	public static AllModuleReportPage allmodulereportpg;
 	public static Logger log;
 	public ReadConfig readConfig;
 	

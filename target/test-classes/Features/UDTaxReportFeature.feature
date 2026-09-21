@@ -73,6 +73,32 @@ Scenario: UD Tax Report menu contains all submenus
  When user clicks on search button of saf Report page
  Then user can see property tax plain text of saf Report page
  
+ @Regression
+ Scenario: Zone and Ward Wise Collection Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Zone and Ward Wise Collection submenu
+ Then user can see Ward Wise Collection Rpt page 
+ When user clicks on search button of Ward Wise Collection Rpt page
+ Then user can see report of Ward Wise Collection Rpt page
+ 
+ @Regression
+ Scenario: Payment Mode Wise Collection Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Payment Mode Wise Collection submenu
+ Then user can see Payment Mode Wise Coll page 
+ When user clicks on search button of Payment Mode Wise Coll page
+ Then user can see report of Payment Mode Wise Coll page
+ 
+ @Regression
+ Scenario: ULB Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on ULB Report submenu
+ Then user can see All Module Report page 
+ When user clicks on search button of All Module Report page
+ Then user can see report of All Module Report page
+ 
+ 
+ 
  
     
    
