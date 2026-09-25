@@ -19,6 +19,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+import PageObject.AllModuleOperatorWiseCollectionPage;
 import PageObject.AllModuleReportPage;
 import PageObject.BOHDashBoardPage;
 import PageObject.CounterReportPage;
@@ -35,6 +36,7 @@ import PageObject.PropertyListPage;
 import PageObject.SafReportPage;
 import PageObject.SearchPropertyPage;
 import PageObject.TCCollectionSummaryPage;
+import PageObject.TransactionDeactivateReportPage;
 import PageObject.WardWiseCollectionRptPage;
 import PageObject.WorkReportDashBoardPage;
 import Utilities.ReadConfig;
@@ -265,6 +267,8 @@ case "chrome":
 	    wardwisecollectionrptPg=new WardWiseCollectionRptPage(driver);
 	    paymentmodewisecollpg=new PaymentModeWiseCollPage(driver);
 	    allmodulereportpg=new AllModuleReportPage(driver);
+	    transactiondeactivatereportPg=new TransactionDeactivateReportPage(driver);
+	    allmoduleoperatorwisecollectionPg=new AllModuleOperatorWiseCollectionPage(driver);
 	    log.info("chrome browser launched");
 	}
 

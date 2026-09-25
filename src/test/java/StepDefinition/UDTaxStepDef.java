@@ -168,10 +168,10 @@ public class UDTaxStepDef extends BaseClass {
 	}
 
 	@When("user click on search button")
-	public void user_click_on_search_button() {
+	public void user_click_on_search_button() throws InterruptedException {
 	    searchpropertyPg.clickOnSearchBtn();
 	    log.info("user click on search button");
-	    //Thread.sleep(2000);
+	    Thread.sleep(2000);
 	}
 
 	@Then("user can see property list page")

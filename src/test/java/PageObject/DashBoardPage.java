@@ -886,6 +886,17 @@ WebDriver ldriver;
 		ULBReportSubMenu.click();
 	}
 	
+	public void clickOnTransactionDeactivateReportSubMenu() {
+		scrollToElement(ldriver, TransactionDeactivateReportSubMenu);
+		TransactionDeactivateReportSubMenu.click();
+	}
+	
+	public void clickOnAllModuleTCSummarySubMenu() {
+		scrollToElement(ldriver, ALLModuleTCSummarySubMenu);
+		ALLModuleTCSummarySubMenu.click();
+	}
+	
+	
 	
 	
 	

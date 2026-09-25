@@ -592,8 +592,81 @@ public class UDTaxReportStepDef extends BaseClass {
 	    	Assert.assertTrue(false);
 	    }
 	}
-
-
-
 	
+	////////////////////Transaction Deactivate Report Functionality//////////////////////////
+	@When("user clicks on Transaction Deactivate Report submenu")
+	public void user_clicks_on_transaction_deactivate_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnTransactionDeactivateReportSubMenu();
+	    log.info("user clicks on Transaction Deactivate Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Transaction Deactivate Report page")
+	public void user_can_see_transaction_deactivate_report_page() {
+	    if(transactiondeactivatereportPg.transactionDeactivateReportPlainTextDisplayed()) {
+	    	log.info("user can see Transaction Deactivate Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Transaction Deactivate Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Transaction Deactivate Report page")
+	public void user_clicks_on_search_button_of_transaction_deactivate_report_page() throws InterruptedException {
+	    transactiondeactivatereportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Transaction Deactivate Report page");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see report of Transaction Deactivate Report page")
+	public void user_can_see_report_of_transaction_deactivate_report_page() {
+		if(transactiondeactivatereportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Transaction Deactivate Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Transaction Deactivate Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	/////////////////////All Module TC Summary Functionality///////////////////////////////////////
+	@When("user clicks on All Module TC Summary submenu")
+	public void user_clicks_on_all_module_tc_summary_submenu() throws InterruptedException {
+	    dashboardPg.clickOnAllModuleTCSummarySubMenu();
+	    log.info("user clicks on All Module TC Summary submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see All Module Operator Wise Collection page")
+	public void user_can_see_all_module_operator_wise_collection_page() {
+	    if(allmoduleoperatorwisecollectionPg.allModuleOperatorWiseCollectionPlainTextDisplayed()) {
+	    	log.info("user can see All Module Operator Wise Collection page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see All Module Operator Wise Collection page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of All Module Operator Wise Collection page")
+	public void user_clicks_on_search_button_of_all_module_operator_wise_collection_page() throws InterruptedException {
+	    allmoduleoperatorwisecollectionPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of All Module Operator Wise Collection page");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see report of All Module Operator Wise Collection page")
+	public void user_can_see_report_of_all_module_operator_wise_collection_page() {
+		if(allmoduleoperatorwisecollectionPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of All Module Operator Wise Collection page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of All Module Operator Wise Collection page");
+	    	Assert.assertTrue(false);
+	    }
+
+	}
+
+
 }

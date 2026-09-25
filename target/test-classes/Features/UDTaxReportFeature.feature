@@ -97,6 +97,23 @@ Scenario: UD Tax Report menu contains all submenus
  When user clicks on search button of All Module Report page
  Then user can see report of All Module Report page
  
+ @Regression
+ Scenario: Transaction Deactivate Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Transaction Deactivate Report submenu
+ Then user can see Transaction Deactivate Report page 
+ When user clicks on search button of Transaction Deactivate Report page
+ Then user can see report of Transaction Deactivate Report page
+ 
+ @Regression
+ Scenario: All Module TC Summary Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on All Module TC Summary submenu
+ Then user can see All Module Operator Wise Collection page 
+ When user clicks on search button of All Module Operator Wise Collection page
+ Then user can see report of All Module Operator Wise Collection page
+ 
+ 
  
  
  
