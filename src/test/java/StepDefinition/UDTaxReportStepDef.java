@@ -394,9 +394,10 @@ public class UDTaxReportStepDef extends BaseClass {
 	}
 
 	@When("user clicks on search button of TC collection summary page")
-	public void user_clicks_on_search_button_of_tc_collection_summary_page() {
+	public void user_clicks_on_search_button_of_tc_collection_summary_page() throws InterruptedException {
 	    tccollectionsummaryPg.clickOnSearchBtn();
 	    log.info("user clicks on search button of TC collection summary page");
+	    Thread.sleep(2000);
 	}
 
 	@Then("user can see report of TC collection summary page")
@@ -467,9 +468,10 @@ public class UDTaxReportStepDef extends BaseClass {
 	}
 
 	@When("user clicks on search button of saf Report page")
-	public void user_clicks_on_search_button_of_saf_report_page() {
+	public void user_clicks_on_search_button_of_saf_report_page() throws InterruptedException {
 	    safreportPg.clickOnSearchBtn();
 	    log.info("user clicks on search button of saf Report page");
+	    Thread.sleep(2000);
 	}
 
 	@Then("user can see property tax plain text of saf Report page")
