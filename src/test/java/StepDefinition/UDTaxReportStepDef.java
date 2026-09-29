@@ -358,9 +358,10 @@ public class UDTaxReportStepDef extends BaseClass {
 	}
 
 	@When("user clicks on search button")
-	public void user_clicks_on_search_button() {
+	public void user_clicks_on_search_button() throws InterruptedException {
 	    counterreportPg.clickOnSearchBtn();
 	    log.info("user clicks on search button");
+	    Thread.sleep(2000);
 	}
 
 	@Then("user can see report")
