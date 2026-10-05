@@ -113,6 +113,40 @@ Scenario: UD Tax Report menu contains all submenus
  When user clicks on search button of All Module Operator Wise Collection page
  Then user can see report of All Module Operator Wise Collection page
  
+ @Regression
+ Scenario: Cheque Bounce Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on cheque bounce report submenu
+ Then user can see Cheque Bounce Rpts page 
+ When user clicks on search button of Cheque Bounce Rpts page
+ Then user can see report of Cheque Bounce Rpts page
+ 
+ @Regression
+ Scenario: Print All Payment Reciept Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Print All Payment Reciept submenu
+ Then user can see Print All Payment Reciept page 
+ When user clicks on search button of Print All Payment Reciept page
+ Then user can see print button of Print All Payment Reciept page
+ 
+ @Regression
+ Scenario: Taxable Property Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Taxable Property Report submenu
+ Then user can see Taxable Property Report page
+ When user select entry type option 
+ And user clicks on search button of Taxable Property Report page
+ Then user can see report of Taxable Property Report page
+ 
+ @Regression
+ Scenario: PropertyWise DCB Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on PropertyWise DCB submenu
+ Then user can see Dcb Report page
+ When user clicks on search button of Dcb Report page
+ Then user can see report of Dcb Report page
+ 
+ 
  
  
  

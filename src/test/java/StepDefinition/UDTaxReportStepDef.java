@@ -670,6 +670,163 @@ public class UDTaxReportStepDef extends BaseClass {
 	    }
 
 	}
+	
+	////////////////////Cheque Bounce Report Functionality//////////////////////////////////
+	@When("user clicks on cheque bounce report submenu")
+	public void user_clicks_on_cheque_bounce_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnChequeBounceReportSubMenu();
+	    log.info("user clicks on cheque bounce report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Cheque Bounce Rpts page")
+	public void user_can_see_cheque_bounce_rpts_page() {
+	    if(chequebouncerptsPg.chequeBounceRptsPlainTextDisplayed()) {
+	       log.info("user can see Cheque Bounce Rpts page");
+	       Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Cheque Bounce Rpts page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Cheque Bounce Rpts page")
+	public void user_clicks_on_search_button_of_cheque_bounce_rpts_page() throws InterruptedException {
+	    chequebouncerptsPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Cheque Bounce Rpts page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Cheque Bounce Rpts page")
+	public void user_can_see_report_of_cheque_bounce_rpts_page() {
+		if(chequebouncerptsPg.reportPlainTextDisplayed()) {
+		       log.info("user can see report of Cheque Bounce Rpts page");
+		       Assert.assertTrue(true);
+		    }else {
+		    	log.warn("user can not see report of Cheque Bounce Rpts page");
+		    	Assert.assertTrue(false);
+		    }
+	}
+	
+	////////////////////////Print All Payment Reciept Functionality///////////////////////
+	@When("user clicks on Print All Payment Reciept submenu")
+	public void user_clicks_on_print_all_payment_reciept_submenu() throws InterruptedException {
+	    dashboardPg.clickOnPrintAllPaymentReceiptSubMenu();
+	    log.info("user clicks on Print All Payment Reciept submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Print All Payment Reciept page")
+	public void user_can_see_print_all_payment_reciept_page() {
+	     if(printallpaymentrecieptpg.printAllPaymentReceiptPlainTextDisplayed()) {
+	    	 log.info("user can see Print All Payment Reciept page");
+	    	 Assert.assertTrue(true);
+	     }else {
+	    	 log.warn("user can not see Print All Payment Reciept page");
+	    	 Assert.assertTrue(false);
+	     }
+	}
+
+	@When("user clicks on search button of Print All Payment Reciept page")
+	public void user_clicks_on_search_button_of_print_all_payment_reciept_page() throws InterruptedException {
+	    printallpaymentrecieptpg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Print All Payment Reciept page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see print button of Print All Payment Reciept page")
+	public void user_can_see_print_button_of_print_all_payment_reciept_page() {
+	    if(printallpaymentrecieptpg.printBtnDisplayed()) {
+	    	log.info("user can see print button of Print All Payment Reciept page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see print button of Print All Payment Reciept page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	/////////////////Taxable Property Report Functionality/////////////////////////////
+	@When("user clicks on Taxable Property Report submenu")
+	public void user_clicks_on_taxable_property_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnTaxablePropertyReportSubMenu();
+	    log.info("user clicks on Taxable Property Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Taxable Property Report page")
+	public void user_can_see_taxable_property_report_page() {
+	    if(taxablepropertyreportPg.taxablePropertyReportPlainTextDisplayed()) {
+	    	log.info("user can see Taxable Property Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Taxable Property Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user select entry type option")
+	public void user_select_entry_type_option() {
+	    taxablepropertyreportPg.selectEntryTypeDropDown("All");
+	    log.info("user select entry type option");
+	}
+
+	@When("user clicks on search button of Taxable Property Report page")
+	public void user_clicks_on_search_button_of_taxable_property_report_page() throws InterruptedException {
+	    taxablepropertyreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Taxable Property Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Taxable Property Report page")
+	public void user_can_see_report_of_taxable_property_report_page() {
+	    if(taxablepropertyreportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Taxable Property Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Taxable Property Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	////////////////////PropertyWise DCB Functionality//////////////////////////
+	@When("user clicks on PropertyWise DCB submenu")
+	public void user_clicks_on_property_wise_dcb_submenu() throws InterruptedException {
+	    dashboardPg.clickOnPropertyWiseDCBSubMenu();
+	    log.info("user clicks on PropertyWise DCB submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Dcb Report page")
+	public void user_can_see_dcb_report_page() {
+	    if(dcbreportPg.dcbReportPlainTextDisplayed()) {
+	    	log.info("user can see Dcb Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Dcb Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Dcb Report page")
+	public void user_clicks_on_search_button_of_dcb_report_page() throws InterruptedException {
+	    dcbreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Dcb Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Dcb Report page")
+	public void user_can_see_report_of_dcb_report_page() {
+	    if(dcbreportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Dcb Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Dcb Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+
+
 
 
 }

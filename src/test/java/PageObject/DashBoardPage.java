@@ -896,6 +896,25 @@ WebDriver ldriver;
 		ALLModuleTCSummarySubMenu.click();
 	}
 	
+	public void clickOnChequeBounceReportSubMenu() {
+		scrollToElement(ldriver, ChequeBounceReportSubMenu);
+		ChequeBounceReportSubMenu.click();
+	}
+	
+	public void clickOnPrintAllPaymentReceiptSubMenu() {
+		scrollToElement(ldriver, PrintAllPaymentRecieptSubMenu);
+		PrintAllPaymentRecieptSubMenu.click();
+	}
+	
+	public void clickOnTaxablePropertyReportSubMenu() {
+		scrollToElement(ldriver, TaxablePropertyReportSubMenu);
+		TaxablePropertyReportSubMenu.click();
+	}
+	
+	public void clickOnPropertyWiseDCBSubMenu() {
+		scrollToElement(ldriver, PropertyWiseDCBSubMenu);
+		PropertyWiseDCBSubMenu.click();
+	}
 	
 	
 	

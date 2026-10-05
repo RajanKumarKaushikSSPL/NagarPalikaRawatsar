@@ -22,7 +22,9 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import PageObject.AllModuleOperatorWiseCollectionPage;
 import PageObject.AllModuleReportPage;
 import PageObject.BOHDashBoardPage;
+import PageObject.ChequeBounceRptsPage;
 import PageObject.CounterReportPage;
+import PageObject.DCBReportPage;
 import PageObject.DCBULBWisePage;
 import PageObject.DashBoardPage;
 import PageObject.HouseTaxEntryPage;
@@ -32,10 +34,12 @@ import PageObject.HouseTaxPaymentReceiptPage;
 import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
 import PageObject.PaymentModeWiseCollPage;
+import PageObject.PrintAllPaymentRecieptPage;
 import PageObject.PropertyListPage;
 import PageObject.SafReportPage;
 import PageObject.SearchPropertyPage;
 import PageObject.TCCollectionSummaryPage;
+import PageObject.TaxablePropertyReportPage;
 import PageObject.TransactionDeactivateReportPage;
 import PageObject.WardWiseCollectionRptPage;
 import PageObject.WorkReportDashBoardPage;
@@ -269,6 +273,10 @@ case "chrome":
 	    allmodulereportpg=new AllModuleReportPage(driver);
 	    transactiondeactivatereportPg=new TransactionDeactivateReportPage(driver);
 	    allmoduleoperatorwisecollectionPg=new AllModuleOperatorWiseCollectionPage(driver);
+	    chequebouncerptsPg=new ChequeBounceRptsPage(driver);
+	    printallpaymentrecieptpg=new PrintAllPaymentRecieptPage(driver);
+	    taxablepropertyreportPg=new TaxablePropertyReportPage(driver);
+	    dcbreportPg=new DCBReportPage(driver);
 	    log.info("chrome browser launched");
 	}
 
