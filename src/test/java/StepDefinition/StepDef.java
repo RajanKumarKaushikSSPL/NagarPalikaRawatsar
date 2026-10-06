@@ -31,9 +31,11 @@ import PageObject.HouseTaxEntryPage;
 import PageObject.HouseTaxEntryViewPage;
 import PageObject.HouseTaxPaymentPage;
 import PageObject.HouseTaxPaymentReceiptPage;
+import PageObject.HtaxDcbReportPage;
 import PageObject.LegacyEntryPage;
 import PageObject.LoginPage;
 import PageObject.PaymentModeWiseCollPage;
+import PageObject.PrintAllDemandRecieptPage;
 import PageObject.PrintAllPaymentRecieptPage;
 import PageObject.PropertyListPage;
 import PageObject.SafReportPage;
@@ -41,6 +43,7 @@ import PageObject.SearchPropertyPage;
 import PageObject.TCCollectionSummaryPage;
 import PageObject.TaxablePropertyReportPage;
 import PageObject.TransactionDeactivateReportPage;
+import PageObject.VarReportPage;
 import PageObject.WardWiseCollectionRptPage;
 import PageObject.WorkReportDashBoardPage;
 import Utilities.ReadConfig;
@@ -277,6 +280,9 @@ case "chrome":
 	    printallpaymentrecieptpg=new PrintAllPaymentRecieptPage(driver);
 	    taxablepropertyreportPg=new TaxablePropertyReportPage(driver);
 	    dcbreportPg=new DCBReportPage(driver);
+	    htaxdcbreportpg=new HtaxDcbReportPage(driver);
+	    printalldemandreceiptPg=new PrintAllDemandRecieptPage(driver);
+	    varreportPg=new VarReportPage(driver);
 	    log.info("chrome browser launched");
 	}
 

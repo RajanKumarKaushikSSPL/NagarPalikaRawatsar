@@ -824,6 +824,121 @@ public class UDTaxReportStepDef extends BaseClass {
 	    	Assert.assertTrue(false);
 	    }
 	}
+	
+	//////////////////Htax DCB Report Functionality//////////////////////
+	@When("user clicks on Htax DCB Report submenu")
+	public void user_clicks_on_htax_dcb_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnHtaxDCBReportSubMenu();
+	    log.info("user clicks on Htax DCB Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Htax Dcb Report page")
+	public void user_can_see_htax_dcb_report_page() {
+	    if(htaxdcbreportpg.htaxDcbReportPlainTextDisplayed()) {
+	       log.info("user can see Htax Dcb Report page");
+	       Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Htax Dcb Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Htax Dcb Report page")
+	public void user_clicks_on_search_button_of_htax_dcb_report_page() throws InterruptedException {
+	    htaxdcbreportpg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Htax Dcb Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Htax Dcb Report page")
+	public void user_can_see_report_of_htax_dcb_report_page() {
+	    if(htaxdcbreportpg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Htax Dcb Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Htax Dcb Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+    //////////////////Print All Demand Reciept Functionality///////////////////////////
+	@When("user clicks on Print All Demand Reciept submenu")
+	public void user_clicks_on_print_all_demand_reciept_submenu() throws InterruptedException {
+	    dashboardPg.clickOnPrintAllDemandReceiptSubMenu();
+	    log.info("user clicks on Print All Demand Reciept submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Print All Demand Reciept page")
+	public void user_can_see_print_all_demand_reciept_page() {
+	    if(printalldemandreceiptPg.printAllDemandReceiptPlainTextDisplayed()) {
+	    	log.info("user can see Print All Demand Reciept page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Print All Demand Reciept page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@Then("user can see search button of Print All Demand Reciept page")
+	public void user_can_see_search_button_of_print_all_demand_reciept_page() {
+	    if(printalldemandreceiptPg.searchBtnDisplayed()) {
+	    	log.info("user can see search button of Print All Demand Reciept page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see search button of Print All Demand Reciept page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@Then("user can see print button of Print All Demand Reciept page")
+	public void user_can_see_print_button_of_print_all_demand_reciept_page() {
+	    if(printalldemandreceiptPg.printBtnDisplayed()) {
+	    	log.info("user can see print button of Print All Demand Reciept page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see print button of Print All Demand Reciept page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	///////////////////Variation Report Functionality////////////////////////////////////
+	@When("user clicks on Variation Report submenu")
+	public void user_clicks_on_variation_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnVariationReportSubMenu();
+	    log.info("user clicks on Variation Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Var Report page")
+	public void user_can_see_var_report_page() {
+	    if(varreportPg.varReportPlainTextDisplayed()) {
+	    	log.info("user can see Var Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Var Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Var Report page")
+	public void user_clicks_on_search_button_of_var_report_page() throws InterruptedException {
+	    varreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Var Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Var Report page")
+	public void user_can_see_report_of_var_report_page() {
+	   if(varreportPg.reportPlainTextDisplayed()) {
+		   log.info("user can see report of Var Report page");
+		   Assert.assertTrue(true);
+	   }else {
+		   log.warn("user can not see report of Var Report page");
+		   Assert.assertTrue(false);
+	   }
+	}
 
 
 

@@ -916,6 +916,21 @@ WebDriver ldriver;
 		PropertyWiseDCBSubMenu.click();
 	}
 	
+	public void clickOnHtaxDCBReportSubMenu() {
+		scrollToElement(ldriver, HtaxDCBReportSubMenu);
+		HtaxDCBReportSubMenu.click();
+	}
+	
+	public void clickOnPrintAllDemandReceiptSubMenu() {
+		scrollToElement(ldriver, PrintAllDemandRecieptSubMenu);
+		PrintAllDemandRecieptSubMenu.click();
+	}
+	
+	public void clickOnVariationReportSubMenu() {
+		scrollToElement(ldriver, VariationReportSubMenu);
+		VariationReportSubMenu.click();
+	}
+	
 	
 	
 	

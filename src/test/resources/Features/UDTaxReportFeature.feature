@@ -146,6 +146,30 @@ Scenario: UD Tax Report menu contains all submenus
  When user clicks on search button of Dcb Report page
  Then user can see report of Dcb Report page
  
+ @Regression
+ Scenario: Htax DCB Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Htax DCB Report submenu
+ Then user can see Htax Dcb Report page
+ When user clicks on search button of Htax Dcb Report page
+ Then user can see report of Htax Dcb Report page
+ 
+ @Regression
+ Scenario: Print All Demand Reciept Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Print All Demand Reciept submenu
+ Then user can see Print All Demand Reciept page
+ And user can see search button of Print All Demand Reciept page
+ And user can see print button of Print All Demand Reciept page
+ 
+ @Regression
+ Scenario: Variation Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Variation Report submenu
+ Then user can see Var Report page
+ When user clicks on search button of Var Report page
+ Then user can see report of Var Report page
+ 
  
  
  
