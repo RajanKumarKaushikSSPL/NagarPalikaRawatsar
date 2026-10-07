@@ -21,8 +21,11 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 import PageObject.AllModuleOperatorWiseCollectionPage;
 import PageObject.AllModuleReportPage;
+import PageObject.ApptiFormListPage;
+import PageObject.AppttiPendingReportPage;
 import PageObject.BOHDashBoardPage;
 import PageObject.ChequeBounceRptsPage;
+import PageObject.ChequeBouncedCollectionReportPage;
 import PageObject.CounterReportPage;
 import PageObject.DCBReportPage;
 import PageObject.DCBULBWisePage;
@@ -38,9 +41,12 @@ import PageObject.PaymentModeWiseCollPage;
 import PageObject.PrintAllDemandRecieptPage;
 import PageObject.PrintAllPaymentRecieptPage;
 import PageObject.PropertyListPage;
+import PageObject.ReVerificationReportPage;
+import PageObject.ReassesmentDifffernceReportPage;
 import PageObject.SafReportPage;
 import PageObject.SearchPropertyPage;
 import PageObject.TCCollectionSummaryPage;
+import PageObject.TaxCollectionReportPage;
 import PageObject.TaxablePropertyReportPage;
 import PageObject.TransactionDeactivateReportPage;
 import PageObject.VarReportPage;
@@ -283,6 +289,12 @@ case "chrome":
 	    htaxdcbreportpg=new HtaxDcbReportPage(driver);
 	    printalldemandreceiptPg=new PrintAllDemandRecieptPage(driver);
 	    varreportPg=new VarReportPage(driver);
+	    reassesmentdiffferencereportPg=new ReassesmentDifffernceReportPage(driver);
+	    chequebouncedcollectionreportPg=new ChequeBouncedCollectionReportPage(driver);
+	    reverificationreportPg=new ReVerificationReportPage(driver);
+	    taxcollectionreportPg=new TaxCollectionReportPage(driver);
+	    apptiformlistPg=new ApptiFormListPage(driver);
+	    appttipendingreportPg=new AppttiPendingReportPage(driver);
 	    log.info("chrome browser launched");
 	}
 

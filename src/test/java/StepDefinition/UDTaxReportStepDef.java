@@ -939,6 +939,194 @@ public class UDTaxReportStepDef extends BaseClass {
 		   Assert.assertTrue(false);
 	   }
 	}
+	
+	//////////////////Reassesment Diff Functionality////////////////////////
+	@When("user clicks on Reassesment Diff submenu")
+	public void user_clicks_on_reassesment_diff_submenu() throws InterruptedException {
+	    dashboardPg.clickOnReassesmentDiffSubMenu();
+	    log.info("user clicks on Reassesment Diff submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Reassesment Difffernce Report page")
+	public void user_can_see_reassesment_difffernce_report_page() {
+	    if(reassesmentdiffferencereportPg.reassesmentDiffReportPlainTextDisplayed()) {
+	    	log.info("user can see Reassesment Difffernce Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Reassesment Difffernce Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Reassesment Difffernce Report page")
+	public void user_clicks_on_search_button_of_reassesment_difffernce_report_page() throws InterruptedException {
+	   reassesmentdiffferencereportPg.clickOnSearchBtn();
+	   log.info("user clicks on search button of Reassesment Difffernce Report page");
+	   Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Reassesment Difffernce Report page")
+	public void user_can_see_report_of_reassesment_difffernce_report_page() {
+	    if(reassesmentdiffferencereportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Reassesment Difffernce Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Reassesment Difffernce Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	//////////////////Cheque Bounced Collection Report Functionality///////////////////////////
+	@When("user clicks on Cheque Bounced Collection Report submenu")
+	public void user_clicks_on_cheque_bounced_collection_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnChequeBouncedCollectionReportSubMenu();
+	    log.info("user clicks on Cheque Bounced Collection Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Cheque Bounced Collection Report page")
+	public void user_can_see_cheque_bounced_collection_report_page() {
+	    if(chequebouncedcollectionreportPg.chequeBouncedCollectionReportPlainTextDisplayed()) {
+	    	log.info("user can see Cheque Bounced Collection Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Cheque Bounced Collection Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Cheque Bounced Collection Report page")
+	public void user_clicks_on_search_button_of_cheque_bounced_collection_report_page() throws InterruptedException {
+	   chequebouncedcollectionreportPg.clickOnSearchBtn();
+	   log.info("user clicks on search button of Cheque Bounced Collection Report page");
+	   Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Cheque Bounced Collection Report page")
+	public void user_can_see_report_of_cheque_bounced_collection_report_page() {
+	    if(chequebouncedcollectionreportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Cheque Bounced Collection Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Cheque Bounced Collection Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+    ///////////////////Reverification Difference Report Functionality////////////////////////
+	@When("user clicks on Reverification Difference Report submenu")
+	public void user_clicks_on_reverification_difference_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnReverificationDiffReportSubMenu();
+	    log.info("user clicks on Reverification Difference Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Re-Verification Report page")
+	public void user_can_see_re_verification_report_page() {
+	    if(reverificationreportPg.reverificationReportPlainTextDisplayed()) {
+	       log.info("user can see Re-Verification Report page");
+	       Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Re-Verification Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Re-Verification Report page")
+	public void user_clicks_on_search_button_of_re_verification_report_page() throws InterruptedException {
+	    reverificationreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Re-Verification Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Re-Verification Report page")
+	public void user_can_see_report_of_re_verification_report_page() {
+	    if(reverificationreportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Re-Verification Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Re-Verification Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	/////////////////////Tax Collection Report Functionality//////////////////////////
+	@When("user clicks on Tax Collection Report submenu")
+	public void user_clicks_on_tax_collection_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnTaxCollectionReportSubMenu();
+	    log.info("user clicks on Tax Collection Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Tax Collection Report page")
+	public void user_can_see_tax_collection_report_page() {
+	    if(taxcollectionreportPg.taxCollectionReportPlainTextDisplayed()) {
+	    	log.info("user can see Tax Collection Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Tax Collection Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	/////////////////Appti List Functionality/////////////////////
+	@When("user clicks on Appti List submenu")
+	public void user_clicks_on_appti_list_submenu() throws InterruptedException {
+	    dashboardPg.clickOnApptiListSubMenu();
+	    log.info("user clicks on Appti List submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Appti Form List page")
+	public void user_can_see_appti_form_list_page() {
+	    if(apptiformlistPg.apptiFormListPlainTextDisplayed()) {
+	    	log.info("user can see Appti Form List page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Appti Form List page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	////////////////Apptti Pending Report Functionality//////////////////////
+	@When("user clicks on Apptti Pending Report submenu")
+	public void user_clicks_on_apptti_pending_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnAppttiPendingReport();
+	    log.info("user clicks on Apptti Pending Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Apptti Pending Report page")
+	public void user_can_see_apptti_pending_report_page() {
+	    if(appttipendingreportPg.appttiPendingReportPlainTextDisplayed()) {
+	    	log.info("user can see Apptti Pending Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Apptti Pending Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Apptti Pending Report page")
+	public void user_clicks_on_search_button_of_apptti_pending_report_page() throws InterruptedException {
+	    appttipendingreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Apptti Pending Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Apptti Pending Report page")
+	public void user_can_see_report_of_apptti_pending_report_page() {
+	    if(appttipendingreportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Apptti Pending Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Apptti Pending Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+
 
 
 

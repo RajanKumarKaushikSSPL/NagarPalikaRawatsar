@@ -170,6 +170,51 @@ Scenario: UD Tax Report menu contains all submenus
  When user clicks on search button of Var Report page
  Then user can see report of Var Report page
  
+ @Regression
+ Scenario: Reassesment Diff Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Reassesment Diff submenu
+ Then user can see Reassesment Difffernce Report page
+ When user clicks on search button of Reassesment Difffernce Report page
+ Then user can see report of Reassesment Difffernce Report page
+ 
+ @Regression
+ Scenario: Cheque Bounced Collection Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Cheque Bounced Collection Report submenu
+ Then user can see Cheque Bounced Collection Report page
+ When user clicks on search button of Cheque Bounced Collection Report page
+ Then user can see report of Cheque Bounced Collection Report page
+ 
+ @Regression
+ Scenario: Reverification Difference Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Reverification Difference Report submenu
+ Then user can see Re-Verification Report page
+ When user clicks on search button of Re-Verification Report page
+ Then user can see report of Re-Verification Report page
+ 
+ @Regression
+ Scenario: Tax Collection Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Tax Collection Report submenu
+ Then user can see Tax Collection Report page
+ 
+ @Regression
+ Scenario: Appti List Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Appti List submenu
+ Then user can see Appti Form List page
+ 
+ @Regression
+ Scenario: Apptti Pending Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Apptti Pending Report submenu
+ Then user can see Apptti Pending Report page
+ When user clicks on search button of Apptti Pending Report page
+ Then user can see report of Apptti Pending Report page
+
+
  
  
  

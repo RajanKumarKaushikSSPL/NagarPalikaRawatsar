@@ -931,6 +931,35 @@ WebDriver ldriver;
 		VariationReportSubMenu.click();
 	}
 	
+	public void clickOnReassesmentDiffSubMenu() {
+		scrollToElement(ldriver, ReassesmentDiffSubMenu);
+		ReassesmentDiffSubMenu.click();
+	}
+	
+	public void clickOnChequeBouncedCollectionReportSubMenu() {
+		scrollToElement(ldriver, ChequeBouncedCollectionReportSubMenu);
+		ChequeBouncedCollectionReportSubMenu.click();
+	}
+	
+	public void clickOnReverificationDiffReportSubMenu() {
+		scrollToElement(ldriver, ReVerificationDifferenceReportSubMenu);
+		ReVerificationDifferenceReportSubMenu.click();
+	}
+	
+	public void clickOnTaxCollectionReportSubMenu() {
+		scrollToElement(ldriver, TaxCollectionReportSubMenu);
+		TaxCollectionReportSubMenu.click();
+	}
+	
+	public void clickOnApptiListSubMenu() {
+		scrollToElement(ldriver, ApptiListSubMenu);
+		ApptiListSubMenu.click();
+	}
+	
+	public void clickOnAppttiPendingReport() {
+		scrollToElement(ldriver, AppttiPendingReportSubMenu);
+		AppttiPendingReportSubMenu.click();
+	}
 	
 	
 	

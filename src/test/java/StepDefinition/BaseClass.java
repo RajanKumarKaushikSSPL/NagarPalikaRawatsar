@@ -20,8 +20,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import PageObject.AllModuleOperatorWiseCollectionPage;
 import PageObject.AllModuleReportPage;
+import PageObject.ApptiFormListPage;
+import PageObject.AppttiPendingReportPage;
 import PageObject.BOHDashBoardPage;
 import PageObject.ChequeBounceRptsPage;
+import PageObject.ChequeBouncedCollectionReportPage;
 import PageObject.CounterReportPage;
 import PageObject.DCBReportPage;
 import PageObject.DCBULBWisePage;
@@ -37,9 +40,12 @@ import PageObject.PaymentModeWiseCollPage;
 import PageObject.PrintAllDemandRecieptPage;
 import PageObject.PrintAllPaymentRecieptPage;
 import PageObject.PropertyListPage;
+import PageObject.ReVerificationReportPage;
+import PageObject.ReassesmentDifffernceReportPage;
 import PageObject.SafReportPage;
 import PageObject.SearchPropertyPage;
 import PageObject.TCCollectionSummaryPage;
+import PageObject.TaxCollectionReportPage;
 import PageObject.TaxablePropertyReportPage;
 import PageObject.TransactionDeactivateReportPage;
 import PageObject.VarReportPage;
@@ -80,6 +86,12 @@ public class BaseClass {
 	public static HtaxDcbReportPage htaxdcbreportpg;
 	public static PrintAllDemandRecieptPage printalldemandreceiptPg;
 	public static VarReportPage varreportPg;
+	public static ReassesmentDifffernceReportPage reassesmentdiffferencereportPg;
+	public static ChequeBouncedCollectionReportPage chequebouncedcollectionreportPg;
+	public static ReVerificationReportPage reverificationreportPg;
+	public static TaxCollectionReportPage taxcollectionreportPg;
+	public static ApptiFormListPage apptiformlistPg;
+	public static AppttiPendingReportPage appttipendingreportPg;
 	public static Logger log;
 	public ReadConfig readConfig;
 	
