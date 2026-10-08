@@ -213,6 +213,61 @@ Scenario: UD Tax Report menu contains all submenus
  Then user can see Apptti Pending Report page
  When user clicks on search button of Apptti Pending Report page
  Then user can see report of Apptti Pending Report page
+ 
+ @Regression
+ Scenario: Appti Reject List Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Appti Reject List submenu
+ Then user can see Appti Reject List page
+ 
+ @Regression
+ Scenario: TC Visit Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on TC Visit Report submenu
+ Then user can see TC Visit Report page
+ When user clicks on search button of TC Visit Report page
+ Then user can see records of TC Visit Report page
+ 
+ @Regression
+ Scenario: TC Visit Summary Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on TC Visit Summary submenu
+ Then user can see TC Visit Summary page
+ When user clicks on search button of TC Visit Summary page
+ Then user can see report of TC Visit Summary page
+ 
+ @Regression
+ Scenario: Property Wise TC Visit Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on Property Wise TC Visit submenu
+ Then user can see Propertywise Tc Visit page
+ When user clicks on search button of Propertywise Tc Visit page
+ Then user can see report of Propertywise Tc Visit page
+ 
+ @Regression
+ Scenario: TL Visit Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on TL Visit Report submenu
+ Then user can see TL Visit Report page
+ When user clicks on search button of TL Visit Report page
+ Then user can see report of TL Visit Report page
+ 
+ @Regression
+ Scenario: All Updation Report Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on All Updation Report submenu
+ Then user can see Property Update Report page
+ When user clicks on search button of Property Update Report page
+ Then user can see report of Property Update Report page
+ 
+ @Regression
+ Scenario: DN130 Distribution Reports Functionality
+ When User clicks on UD Tax Report menu
+ And user clicks on DN130 Distribution Reports submenu
+ Then user can see Dn130 Notice Distribution Report page
+ When user clicks on search button of Dn130 Notice Distribution Report page
+ Then user can see report of Dn130 Notice Distribution Report page
+
 
 
  

@@ -961,6 +961,41 @@ WebDriver ldriver;
 		AppttiPendingReportSubMenu.click();
 	}
 	
+	public void clickOnApptiRejectListSubMenu() {
+		scrollToElement(ldriver, ApptiRejectListSubMenu);
+		ApptiRejectListSubMenu.click();
+	}
+	
+	public void clickOnTCVisitReportSubMenu() {
+		scrollToElement(ldriver, TCVisitReportSubMenu);
+		TCVisitReportSubMenu.click();
+	}
+	
+	public void clickOnTCVisitSummarySubMenu() {
+		scrollToElement(ldriver, TCVisitSummarySubMenu);
+		TCVisitSummarySubMenu.click();
+	}
+	
+	public void clickOnPropertyWiseTCVisitSubMenu() {
+		scrollToElement(ldriver, PropertyWiseTCVisitSubMenu);
+		PropertyWiseTCVisitSubMenu.click();
+	}
+	
+	public void clickOnTLVisitReportSubMenu() {
+		scrollToElement(ldriver, TLVisitReportSubMenu);
+		TLVisitReportSubMenu.click();
+	}
+	
+	public void clickOnAllUpdationReportSubMenu() {
+		scrollToElement(ldriver, AllUpdationReportSubMenu);
+		AllUpdationReportSubMenu.click();
+	}
+	
+	public void clickOnDN130DistributionReportsSubMenu() {
+		scrollToElement(ldriver, DN130DistributionReportsSubMenu);
+		DN130DistributionReportsSubMenu.click();
+	}
+	
 	
 	
 	

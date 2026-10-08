@@ -1125,11 +1125,247 @@ public class UDTaxReportStepDef extends BaseClass {
 	    	Assert.assertTrue(false);
 	    }
 	}
+	
+	//////////////////////////Appti Reject List Functionality////////////////////////
+	@When("user clicks on Appti Reject List submenu")
+	public void user_clicks_on_appti_reject_list_submenu() throws InterruptedException {
+	    dashboardPg.clickOnApptiRejectListSubMenu();
+	    log.info("user clicks on Appti Reject List submenu");
+	    Thread.sleep(2000);
+	}
 
+	@Then("user can see Appti Reject List page")
+	public void user_can_see_appti_reject_list_page() {
+	    if(apptirejectlistPg.apptiRejectListPlainTextDisplayed()) {
+	    	log.info("user can see Appti Reject List page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Appti Reject List page");
+	    	Assert.assertTrue(false);
+	    }
+	}
 
+    ///////////////TC Visit Report Functionality////////////////////
+	@When("user clicks on TC Visit Report submenu")
+	public void user_clicks_on_tc_visit_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnTCVisitReportSubMenu();
+	    log.info("user clicks on TC Visit Report submenu");
+	    Thread.sleep(2000);
+	}
 
+	@Then("user can see TC Visit Report page")
+	public void user_can_see_tc_visit_report_page() {
+	    if(tcvisitreportPg.tcVisitReportPlainTextDisplayed()) {
+	    	log.info("user can see TC Visit Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see TC Visit Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
 
+	@When("user clicks on search button of TC Visit Report page")
+	public void user_clicks_on_search_button_of_tc_visit_report_page() throws InterruptedException {
+	    tcvisitreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of TC Visit Report page");
+	    Thread.sleep(3000);
+	}
 
+	@Then("user can see records of TC Visit Report page")
+	public void user_can_see_records_of_tc_visit_report_page() {
+	    if(tcvisitreportPg.recordsPlainTextDisplayed()) {
+	    	log.info("user can see records of TC Visit Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see records of TC Visit Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+    //////////////////TC Visit Summary Functionality/////////////////////////
+	@When("user clicks on TC Visit Summary submenu")
+	public void user_clicks_on_tc_visit_summary_submenu() throws InterruptedException {
+	    dashboardPg.clickOnTCVisitSummarySubMenu();
+	    log.info("user clicks on TC Visit Summary submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see TC Visit Summary page")
+	public void user_can_see_tc_visit_summary_page() {
+	    if(tcvisitsummaryPg.tcVisitSummaryPlainTextDisplayed()) {
+	    	log.info("user can see TC Visit Summary page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see TC Visit Summary page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of TC Visit Summary page")
+	public void user_clicks_on_search_button_of_tc_visit_summary_page() throws InterruptedException {
+	    tcvisitsummaryPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of TC Visit Summary page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of TC Visit Summary page")
+	public void user_can_see_report_of_tc_visit_summary_page() {
+		if(tcvisitsummaryPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of TC Visit Summary page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of TC Visit Summary page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	/////////////////Property Wise TC Visit Functionality///////////////////////
+	@When("user clicks on Property Wise TC Visit submenu")
+	public void user_clicks_on_property_wise_tc_visit_submenu() throws InterruptedException {
+	    dashboardPg.clickOnPropertyWiseTCVisitSubMenu();
+	    log.info("user clicks on Property Wise TC Visit submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Propertywise Tc Visit page")
+	public void user_can_see_propertywise_tc_visit_page() {
+	    if(propertywisetcvisitPg.propertyWiseTCVisitPlainTextDisplayed()) {
+	    	log.info("user can see Propertywise Tc Visit page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Propertywise Tc Visit page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Propertywise Tc Visit page")
+	public void user_clicks_on_search_button_of_propertywise_tc_visit_page() throws InterruptedException {
+	    propertywisetcvisitPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Propertywise Tc Visit page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Propertywise Tc Visit page")
+	public void user_can_see_report_of_propertywise_tc_visit_page() {
+		if(propertywisetcvisitPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Propertywise Tc Visit page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Propertywise Tc Visit page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+    //////////////////TL Visit Report Functionality///////////////////////////
+	@When("user clicks on TL Visit Report submenu")
+	public void user_clicks_on_tl_visit_report_submenu() throws InterruptedException {
+		dashboardPg.clickOnTLVisitReportSubMenu();
+	    log.info("user clicks on TL Visit Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see TL Visit Report page")
+	public void user_can_see_tl_visit_report_page() {
+		if(tlvisitreportPg.tlVisitReportPlainTextDisplayed()) {
+	    	log.info("user can see TL Visit Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see TL Visit Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of TL Visit Report page")
+	public void user_clicks_on_search_button_of_tl_visit_report_page() throws InterruptedException {
+		tlvisitreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of TL Visit Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of TL Visit Report page")
+	public void user_can_see_report_of_tl_visit_report_page() {
+		if(tlvisitreportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of TL Visit Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of TL Visit Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+    
+	/////////////////All Updation Report Functionality////////////////////
+	@When("user clicks on All Updation Report submenu")
+	public void user_clicks_on_all_updation_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnAllUpdationReportSubMenu();
+	    log.info("user clicks on All Updation Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Property Update Report page")
+	public void user_can_see_property_update_report_page() {
+	    if(propertyupdatereportPg.propertyUpdateReportPlainTextDisplayed()) {
+	    	log.info("user can see Property Update Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Property Update Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Property Update Report page")
+	public void user_clicks_on_search_button_of_property_update_report_page() throws InterruptedException {
+	    propertyupdatereportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Property Update Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Property Update Report page")
+	public void user_can_see_report_of_property_update_report_page() {
+		if(propertyupdatereportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Property Update Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Property Update Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+    ///////////////////DN130 Distribution Reports Functionality//////////////////////
+	@When("user clicks on DN130 Distribution Reports submenu")
+	public void user_clicks_on_dn130_distribution_reports_submenu() throws InterruptedException {
+	   dashboardPg.clickOnDN130DistributionReportsSubMenu();
+	   log.info("user clicks on DN130 Distribution Reports submenu");
+	   Thread.sleep(2000);
+	}
+
+	@Then("user can see Dn130 Notice Distribution Report page")
+	public void user_can_see_dn130_notice_distribution_report_page() {
+	    if(dn130noticedistributionreportPg.dn130NoticeDistributionReportPlainTextDisplayed()) {
+	    	log.info("user can see Dn130 Notice Distribution Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Dn130 Notice Distribution Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Dn130 Notice Distribution Report page")
+	public void user_clicks_on_search_button_of_dn130_notice_distribution_report_page() throws InterruptedException {
+	    dn130noticedistributionreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Dn130 Notice Distribution Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Dn130 Notice Distribution Report page")
+	public void user_can_see_report_of_dn130_notice_distribution_report_page() {
+		if(dn130noticedistributionreportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Dn130 Notice Distribution Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Dn130 Notice Distribution Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
 
 
 }
