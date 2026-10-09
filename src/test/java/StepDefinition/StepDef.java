@@ -49,6 +49,9 @@ import PageObject.ReVerificationReportPage;
 import PageObject.ReassesmentDifffernceReportPage;
 import PageObject.SafReportPage;
 import PageObject.SearchPropertyPage;
+import PageObject.SurveyReportPage;
+import PageObject.SurveySummaryReportPage;
+import PageObject.SurveyTeamSummaryPage;
 import PageObject.TCCollectionSummaryPage;
 import PageObject.TCVisitReportPage;
 import PageObject.TCVisitSummaryPage;
@@ -309,6 +312,9 @@ case "chrome":
 	    tlvisitreportPg=new TLVisitReportPage(driver);
 	    propertyupdatereportPg=new PropertyUpdateReportPage(driver);
 	    dn130noticedistributionreportPg=new DN130NoticeDistributionReportPage(driver);
+	    surveyreportPg=new SurveyReportPage(driver);
+	    surveysummaryreportPg=new SurveySummaryReportPage(driver);
+	    surveyteamsummaryPg=new SurveyTeamSummaryPage(driver);
 	    log.info("chrome browser launched");
 	}
 

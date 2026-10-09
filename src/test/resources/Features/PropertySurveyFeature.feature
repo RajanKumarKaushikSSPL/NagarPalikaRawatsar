@@ -34,3 +34,28 @@ Feature: Property Survey
     And user can view Survey Visit Report submenu of Property Survey menu
     And user can view TL Survey Visit submenu of Property Survey menu
     And user can view TL Survey Visit Report submenu of Property Survey menu
+    
+    @Regression
+    Scenario: Survey Report Functionality
+    When User clicks on Property Survey menu
+    And user clicks on survey report submenu
+    Then user can see Survey Report page
+    When user clicks on search button of Survey Report page 
+    Then user can see records of Survey Report page
+    
+    @Regression
+    Scenario: Survey Summary Report Functionality
+    When User clicks on Property Survey menu
+    And user clicks on Survey Summary Report submenu
+    Then user can see Survey Summary Report page
+    When user clicks on search button of Survey Summary Report page 
+    Then user can see report of Survey Summary Report page
+    
+    @Regression
+    Scenario: Survey Team Summary Functionality
+    When User clicks on Property Survey menu
+    And user clicks on Survey Team Summary submenu
+    Then user can see Survey Team Summary page
+    When user clicks on search button of Survey Team Summary page 
+    Then user can see report of Survey Team Summary page
+

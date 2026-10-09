@@ -996,6 +996,18 @@ WebDriver ldriver;
 		DN130DistributionReportsSubMenu.click();
 	}
 	
+	public void clickOnSurveyReportSubMenu() {
+		SurveyReportSubMenu.click();
+	}
+	
+	public void clickOnSurveySummaryReportSubMenu() {
+		SurveySummaryReportSubMenu.click();
+	}
+	
+	public void clickOnSurveyTeamSummarySubMenu() {
+		SurveyTeamSummarySubMenu.click();
+	}
+	
 	
 	
 	

@@ -48,6 +48,9 @@ import PageObject.ReVerificationReportPage;
 import PageObject.ReassesmentDifffernceReportPage;
 import PageObject.SafReportPage;
 import PageObject.SearchPropertyPage;
+import PageObject.SurveyReportPage;
+import PageObject.SurveySummaryReportPage;
+import PageObject.SurveyTeamSummaryPage;
 import PageObject.TCCollectionSummaryPage;
 import PageObject.TCVisitReportPage;
 import PageObject.TCVisitSummaryPage;
@@ -106,6 +109,9 @@ public class BaseClass {
 	public static TLVisitReportPage tlvisitreportPg;
 	public static PropertyUpdateReportPage propertyupdatereportPg;
 	public static DN130NoticeDistributionReportPage dn130noticedistributionreportPg;
+	public static SurveyReportPage surveyreportPg;
+	public static SurveySummaryReportPage surveysummaryreportPg;
+	public static SurveyTeamSummaryPage surveyteamsummaryPg;
 	public static Logger log;
 	public ReadConfig readConfig;
 	

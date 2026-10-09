@@ -5,7 +5,8 @@ import org.testng.Assert;
 import io.cucumber.java.en.*;
 
 public class PropertySurveyStepDef extends BaseClass {
-
+    
+	//////////////////////////////Property Survey menu contains all submenus///////////////////////////
 	@When("User clicks on Property Survey menu")
 	public void user_clicks_on_property_survey_menu() {
 	    dashboardPg.clickOnPropertySurveyMenu();
@@ -293,5 +294,118 @@ public class PropertySurveyStepDef extends BaseClass {
 	    	Assert.assertTrue(false);
 	    }
 	}
+	
+	/////////////////////////Survey Report Functionality/////////////////////////////////////
+	@When("user clicks on survey report submenu")
+	public void user_clicks_on_survey_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnSurveyReportSubMenu();
+	    log.info("user clicks on survey report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Survey Report page")
+	public void user_can_see_survey_report_page() {
+	   if(surveyreportPg.surveyReportPlainTextDisplayed()) {
+		  log.info("user can see Survey Report page");
+		  Assert.assertTrue(true);
+	   }else {
+		   log.warn("user can not see Survey Report page");
+		   Assert.assertTrue(false);
+	   }
+	}
+
+	@When("user clicks on search button of Survey Report page")
+	public void user_clicks_on_search_button_of_survey_report_page() throws InterruptedException {
+	    surveyreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Survey Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see records of Survey Report page")
+	public void user_can_see_records_of_survey_report_page() {
+		if(surveyreportPg.recordPlainTextDisplayed()) {
+			  log.info("user can see records of Survey Report page");
+			  Assert.assertTrue(true);
+		   }else {
+			   log.warn("user can not see records of Survey Report page");
+			   Assert.assertTrue(false);
+		   }
+	}
+	
+	//////////////////Survey Summary Report Functionality/////////////////
+	@When("user clicks on Survey Summary Report submenu")
+	public void user_clicks_on_survey_summary_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnSurveySummaryReportSubMenu();
+	    log.info("user clicks on Survey Summary Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Survey Summary Report page")
+	public void user_can_see_survey_summary_report_page() {
+	    if(surveysummaryreportPg.surveySummaryReportPlainTextDisplayed()) {
+	    	log.info("user can see Survey Summary Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Survey Summary Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Survey Summary Report page")
+	public void user_clicks_on_search_button_of_survey_summary_report_page() throws InterruptedException {
+	    surveysummaryreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Survey Summary Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Survey Summary Report page")
+	public void user_can_see_report_of_survey_summary_report_page() {
+		 if(surveysummaryreportPg.reportPlainTextDisplayed()) {
+		    	log.info("user can see report of Survey Summary Report page");
+		    	Assert.assertTrue(true);
+		    }else {
+		    	log.warn("user can not see report of Survey Summary Report page");
+		    	Assert.assertTrue(false);
+		    }
+	}
+	
+	////////////////Survey Team Summary Functionality///////////////////////
+	@When("user clicks on Survey Team Summary submenu")
+	public void user_clicks_on_survey_team_summary_submenu() throws InterruptedException {
+	    dashboardPg.clickOnSurveyTeamSummarySubMenu();
+	    log.info("user clicks on Survey Team Summary submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Survey Team Summary page")
+	public void user_can_see_survey_team_summary_page() {
+	     if(surveyteamsummaryPg.surveyTeamSummaryPlainTextDisplayed()) {
+	    	log.info("user can see Survey Team Summary page");
+	    	Assert.assertTrue(true);
+	     }else {
+	    	 log.warn("user can not see Survey Team Summary page");
+	    	 Assert.assertTrue(false);
+	     }
+	}
+
+	@When("user clicks on search button of Survey Team Summary page")
+	public void user_clicks_on_search_button_of_survey_team_summary_page() throws InterruptedException {
+	    surveyteamsummaryPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Survey Team Summary page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Survey Team Summary page")
+	public void user_can_see_report_of_survey_team_summary_page() {
+		if(surveyteamsummaryPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Survey Team Summary page");
+	    	Assert.assertTrue(true);
+	     }else {
+	    	 log.warn("user can not see report of Survey Team Summary page");
+	    	 Assert.assertTrue(false);
+	     }
+	}
+
+
 
 }
