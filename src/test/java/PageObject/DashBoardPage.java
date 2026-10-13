@@ -1008,6 +1008,71 @@ WebDriver ldriver;
 		SurveyTeamSummarySubMenu.click();
 	}
 	
+	public void clickOnSurveyAssessedListSubMenu() {
+		SurveyAssessedListSubMenu.click();
+	}
+	
+	public void clickOnSurveyAssessedReportSubMenu() {
+		SurveyAssessedReportSubMenu.click();
+	}
+	
+	public void clickOnWardWiseSurveyReportSubMenu() {
+		WardwiseSurveyReportSubMenu.click();
+	}
+	
+	public void clickOnSurveyPendingReportSubMenu() {
+		SurveyPendingReportSubMenu.click();
+	}
+	
+	public void clickOnSurveyLevelSummaryReportSubMenu() {
+		scrollToElement(ldriver, SurveyLevelSummaryReportSubMenu);
+		SurveyLevelSummaryReportSubMenu.click();
+	}
+	
+	public void clickOnUserWiseForwardSummarySubMenu() {
+		scrollToElement(ldriver, UserwiseForwardSummarySubMenu);
+		UserwiseForwardSummarySubMenu.click();
+	}
+	
+	public void clickOnUserWiseSurveyEditReportSubMenu() {
+		scrollToElement(ldriver, UserwiseSurveyEditReportSubMenu);
+		UserwiseSurveyEditReportSubMenu.click();
+	}
+	
+	public void clickOnSurveyModificationReportSubMenu() {
+		scrollToElement(ldriver, SurveyModificationReportSubMenu);
+		SurveyModificationReportSubMenu.click();
+	}
+	
+	public void clickOnSurveyGeoTaggingReportSubMenu() {
+		scrollToElement(ldriver, SurveyGeotaggingReportSubMenu);
+		SurveyGeotaggingReportSubMenu.click();
+	}
+	
+	public void clickOnExPartySurveyNoticeSubMenu() {
+		scrollToElement(ldriver, ExPartySurveyNoticeSubMenu);
+		ExPartySurveyNoticeSubMenu.click();
+	}
+	
+	public void clickOnSurveyNoticeListSubMenu() {
+		scrollToElement(ldriver, SurveyNoticeListSubMenu);
+		SurveyNoticeListSubMenu.click();
+	}
+	
+	public void clickOnBulkSurveyNoticePrintSubMenu() {
+		scrollToElement(ldriver, BulkSurveyNoticePrintSubMenu);
+		BulkSurveyNoticePrintSubMenu.click();
+	}
+	
+	public void clickOnSurveyNoticeReceivedListSubMenu() {
+		scrollToElement(ldriver, SurveyNoticeReceivedListSubMenu);
+		SurveyNoticeReceivedListSubMenu.click();
+	}
+	
+	public void clickOnSurveyNoticeReceivedReportSubMenu() {
+		scrollToElement(ldriver, SurveyNoticeReceivedReportSubMenu);
+		SurveyNoticeReceivedReportSubMenu.click();
+	}
 	
 	
 	
