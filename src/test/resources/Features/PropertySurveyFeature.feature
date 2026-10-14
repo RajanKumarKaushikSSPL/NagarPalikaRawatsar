@@ -162,3 +162,48 @@ Feature: Property Survey
     When User clicks on Property Survey menu
     And user clicks on Survey Notice Received Report submenu
     Then user can see Survey Notice Received Report page
+    
+    @Regression
+    Scenario: Survey Notice Distributed Report Functionality
+    When User clicks on Property Survey menu
+    And user clicks on Survey Notice Distributed Report submenu
+    Then user can see Survey Notice Distributed Report page
+    
+    @Regression
+    Scenario: Survey Demand Report Functionality
+    When User clicks on Property Survey menu
+    And user clicks on Survey Demand Report submenu
+    Then user can see Survey Demand Report page
+    When user clicks on search button of Survey Demand Report page 
+    Then user can see report of Survey Demand Report page
+    
+    @Regression
+    Scenario: Survey GIS Update Functionality
+    When User clicks on Property Survey menu
+    And user clicks on Survey GIS Update submenu
+    Then user can see Search Survey page
+    When user select ward no. of Search Survey page
+    And user clicks search button of Search Survey page 
+    Then user can see Property List page
+    
+    @Regression
+    Scenario: Survey Visit Report Functionality
+    When User clicks on Property Survey menu
+    And user clicks on Survey Visit Report submenu
+    Then user can see Survey Visit Report page
+    When user clicks on search button of Survey Visit Report page 
+    Then user can see records of Survey Visit Report page
+    
+    @Regression
+    Scenario: TL Survey Visit Functionality
+    When User clicks on Property Survey menu
+    And user clicks on TL Survey Visit submenu
+    Then user can see Search Survey Visit page
+    
+    @Regression
+    Scenario: TL Survey Visit Report Functionality
+    When User clicks on Property Survey menu
+    And user clicks on TL Survey Visit Report submenu
+    Then user can see TL Survey Visit Report page
+    When user clicks on search button of TL Survey Visit Report page 
+    Then user can see records of TL Survey Visit Report page

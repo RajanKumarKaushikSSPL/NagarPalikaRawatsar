@@ -1074,6 +1074,36 @@ WebDriver ldriver;
 		SurveyNoticeReceivedReportSubMenu.click();
 	}
 	
+	public void clickOnSurveyNoticeDistributedReportSubMenu() {
+		scrollToElement(ldriver, SurveyNoticeDistributedReportSubMenu);
+		SurveyNoticeDistributedReportSubMenu.click();
+	}
+	
+	public void clickOnSurveyDemandReportSubMenu() {
+		scrollToElement(ldriver, SurveyDemandReportSubMenu);
+		SurveyDemandReportSubMenu.click();
+	}
+	
+	public void clickOnSurveyGISUpdateSubMenu() {
+		scrollToElement(ldriver, SurveyGISUpdateSubMenu);
+		SurveyGISUpdateSubMenu.click();
+	}
+	
+	public void clickOnSurveyVisitReportSubMenu() {
+		scrollToElement(ldriver, SurveyVisitReportSubMenu);
+		SurveyVisitReportSubMenu.click();
+	}
+	
+	public void clickOnTLSurveyVisitSubMenu() {
+		scrollToElement(ldriver, TLSurveyVisitSubMenu);
+		TLSurveyVisitSubMenu.click();
+	}
+	
+	public void clickOnTLSurveyVisitReportSubMenu() {
+		scrollToElement(ldriver, TLSurveyVisitReportSubMenu);
+		TLSurveyVisitReportSubMenu.click();
+	}
+	
 	
 	
 	

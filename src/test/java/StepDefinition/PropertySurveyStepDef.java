@@ -852,6 +852,197 @@ public class PropertySurveyStepDef extends BaseClass {
 	    }
 	}
 
+    ////////////////////Survey Notice Distributed Report Functionality////////////////////////
+	@When("user clicks on Survey Notice Distributed Report submenu")
+	public void user_clicks_on_survey_notice_distributed_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnSurveyNoticeDistributedReportSubMenu();
+	    log.info("user clicks on Survey Notice Distributed Report submenu");
+	    Thread.sleep(2000);
+	}
 
+	@Then("user can see Survey Notice Distributed Report page")
+	public void user_can_see_survey_notice_distributed_report_page() {
+	    if(surveynoticedistributedreportPg.surveyNoticeDistributedReportPlainTextDisplayed()) {
+	    	log.info("user can see Survey Notice Distributed Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Survey Notice Distributed Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	/////////////////////Survey Demand Report Functionality/////////////////////////////
+	@When("user clicks on Survey Demand Report submenu")
+	public void user_clicks_on_survey_demand_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnSurveyDemandReportSubMenu();
+	    log.info("user clicks on Survey Demand Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Survey Demand Report page")
+	public void user_can_see_survey_demand_report_page() {
+	    if(surveydemandreportPg.surveyDemandReportPlainTextDisplayed()) {
+	    	log.info("user can see Survey Demand Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Survey Demand Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Survey Demand Report page")
+	public void user_clicks_on_search_button_of_survey_demand_report_page() throws InterruptedException {
+	    surveydemandreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Survey Demand Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Survey Demand Report page")
+	public void user_can_see_report_of_survey_demand_report_page() {
+		if(surveydemandreportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Survey Demand Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Survey Demand Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	///////////////////Survey GIS Update Functionality///////////////////////////
+	@When("user clicks on Survey GIS Update submenu")
+	public void user_clicks_on_survey_gis_update_submenu() throws InterruptedException {
+	    dashboardPg.clickOnSurveyGISUpdateSubMenu();
+	    log.info("user clicks on Survey GIS Update submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Search Survey page")
+	public void user_can_see_search_survey_page() {
+	    if(searchsurveyPg.searchSurveyPlainTextDisplayed()) {
+	    	log.info("user can see Search Survey page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Search Survey page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user select ward no. of Search Survey page")
+	public void user_select_ward_no_of_search_survey_page() {
+	    searchsurveyPg.selectWardNoDropDown("1");
+	    log.info("user select ward no. of Search Survey page");
+	}
+
+	@When("user clicks search button of Search Survey page")
+	public void user_clicks_search_button_of_search_survey_page() throws InterruptedException {
+	    searchsurveyPg.clickOnSearchBtn();
+	    log.info("user clicks search button of Search Survey page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see Property List page")
+	public void user_can_see_property_list_page() {
+	    if(propertylistPg.propertyListPlainTextDisplayed()) {
+	       log.info("user can see Property List page");
+	       Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Property List page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	////////////////Survey Visit Report Functionality//////////////////
+	@When("user clicks on Survey Visit Report submenu")
+	public void user_clicks_on_survey_visit_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnSurveyVisitReportSubMenu();
+	    log.info("user clicks on Survey Visit Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Survey Visit Report page")
+	public void user_can_see_survey_visit_report_page() {
+	    if(surveyvisitreportPg.surveyVisitReportPlainTextDisplayed()) {
+	    	log.info("user can see Survey Visit Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Survey Visit Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Survey Visit Report page")
+	public void user_clicks_on_search_button_of_survey_visit_report_page() throws InterruptedException {
+	    surveyvisitreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Survey Visit Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see records of Survey Visit Report page")
+	public void user_can_see_records_of_survey_visit_report_page() {
+		if(surveyvisitreportPg.recordPlainTextDisplayed()) {
+	    	log.info("user can see records of Survey Visit Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see records of Survey Visit Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	/////////////////TL Survey Visit Functionality//////////////////////////
+	@When("user clicks on TL Survey Visit submenu")
+	public void user_clicks_on_tl_survey_visit_submenu() throws InterruptedException {
+	    dashboardPg.clickOnTLSurveyVisitSubMenu();
+	    log.info("user clicks on TL Survey Visit submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Search Survey Visit page")
+	public void user_can_see_search_survey_visit_page() {
+	    if(searchsurveyvisitPg.searchSurveyVisitPlainTextDisplayed()) {
+	    	log.info("user can see Search Survey Visit page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Search Survey Visit page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
+	////////////////////TL Survey Visit Report Functionality////////////////////////////
+	@When("user clicks on TL Survey Visit Report submenu")
+	public void user_clicks_on_tl_survey_visit_report_submenu() throws InterruptedException {
+	    dashboardPg.clickOnTLSurveyVisitReportSubMenu();
+	    log.info("user clicks on TL Survey Visit Report submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see TL Survey Visit Report page")
+	public void user_can_see_tl_survey_visit_report_page() {
+	    if(tlsurveyvisitreportPg.tlSurveyVisitReportPlainTextDisplayed()) {
+	    	log.info("user can see TL Survey Visit Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see TL Survey Visit Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of TL Survey Visit Report page")
+	public void user_clicks_on_search_button_of_tl_survey_visit_report_page() throws InterruptedException {
+	    tlsurveyvisitreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of TL Survey Visit Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see records of TL Survey Visit Report page")
+	public void user_can_see_records_of_tl_survey_visit_report_page() {
+		if(tlsurveyvisitreportPg.recordPlainTextDisplayed()) {
+	    	log.info("user can see records of TL Survey Visit Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see records of TL Survey Visit Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+	
 
 }

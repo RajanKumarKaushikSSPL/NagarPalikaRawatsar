@@ -21,5 +21,9 @@ WebDriver ldriver;
 	public String getPropertyListPageText() {
 		return PropertyListPlainText.getText();
 	}
+	
+	public boolean propertyListPlainTextDisplayed() {
+		return PropertyListPlainText.isDisplayed();
+	}
 
 }
