@@ -1104,6 +1104,61 @@ WebDriver ldriver;
 		TLSurveyVisitReportSubMenu.click();
 	}
 	
+	public void clickOnTransactionDeactivateSubMenu() {
+		TransactionDeactivateSubMenu.click();
+	}
+	
+	public void clickOnCashVerificationSubMenu() {
+		CashVerificationSubMenu.click();
+	}
+	
+	public void clickOnBankDepositDateEntrySubMenu() {
+		BankDepositDateEntrySubMenu.click();
+	}
+	
+	public void clickOnBankReconcilationSubMenu() {
+		BankReconciliationSubMenu.click();
+	}
+	
+	public void clickOnPaymentModeUpdateSubMenu() {
+		PaymentModeUpdateSubMenu.click();
+	}
+	
+	public void clickOnHouseTaxTransactionDeactivateSubMenu() {
+		scrollToElement(ldriver, HouseTaxTransactionDeactivateSubMenu);
+		HouseTaxTransactionDeactivateSubMenu.click();
+	}
+	
+	public void clickOnHouseTaxPaymentModeUpdateSubMenu() {
+		scrollToElement(ldriver, HouseTaxPaymentModeUpdateSubMenu);
+		HouseTaxPaymentModeUpdateSubMenu.click();
+	}
+	
+	public void clickOnInactivePropertySubMenu() {
+		scrollToElement(ldriver, InactivePropertySubMenu);
+		InactivePropertySubMenu.click();
+	}
+	
+	public void clickOnInactiveDCBSubMenu() {
+		scrollToElement(ldriver, InactiveDCBSubMenu);
+		InactiveDCBSubMenu.click();
+	}
+	
+	public void clickOnInactivePropertyActivitySubMenu() {
+		scrollToElement(ldriver, InactivePropertyActivitySubMenu);
+		InactivePropertyActivitySubMenu.click();
+	}
+	
+	public void clickOnInactiveSurveySubMenu() {
+		scrollToElement(ldriver, InactiveSurveySubMenu);
+		InactiveSurveySubMenu.click();
+	}
+	
+	public void clickOnInactiveSurveyActivitySubMenu() {
+		scrollToElement(ldriver, InactiveSurveyActivitySubMenu);
+		InactiveSurveyActivitySubMenu.click();
+	}
+	
 	
 	
 	

@@ -40,5 +40,33 @@ public class InactiveSurveyStepDef extends BaseClass {
 	     
 	    }
 	}
+	
+	///////////////////////////Inactive Survey Functionality//////////////////////////////////////
+	@When("User clicks on Inactive Survey submenu")
+	public void user_clicks_on_inactive_survey_submenu() throws InterruptedException {
+	    dashboardPg.clickOnInactiveSurveySubMenu();
+	    log.info("User clicks on Inactive Survey submenu");
+	    Thread.sleep(2000);
+	}
+	
+	///////////////////////////Inactive Survey Activity Functionality/////////////////////////////
+	@When("User clicks on Inactive Survey Activity submenu")
+	public void user_clicks_on_inactive_survey_activity_submenu() throws InterruptedException {
+	    dashboardPg.clickOnInactiveSurveyActivitySubMenu();
+	    log.info("User clicks on Inactive Survey Activity submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Inactive Survey Activity page")
+	public void user_can_see_inactive_survey_activity_page() {
+	    if(inactivesurveyactivityPg.inactiveSurveyActivitytPlainTextDisplayed()) {
+	    	log.info("user can see Inactive Survey Activity page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Inactive Survey Activity page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
 
 }

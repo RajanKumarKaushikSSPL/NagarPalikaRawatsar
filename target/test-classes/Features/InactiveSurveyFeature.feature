@@ -8,9 +8,25 @@ Background: Steps common for Inactive Survey
    Then User should be able to see "Dashboard" text
    
    
-@Smoke
-Scenario: Inactive Survey menu contains all submenus
+   @Smoke
+   Scenario: Inactive Survey menu contains all submenus
    When User clicks on Inactive Survey menu
    Then user can view Inactive Survey submenu of Inactive Survey menu
    And user can view Inactive Survey Activity submenu of Inactive Survey menu
+   
+   @Regression
+   Scenario: Inactive Survey Functionality
+   When User clicks on Inactive Survey menu 
+   And User clicks on Inactive Survey submenu 
+   Then user can see Search Survey page
+   When user select ward no. of Search Survey page
+   And user clicks search button of Search Survey page
+   Then user can see property list page
+   
+   @Regression
+   Scenario: Inactive Survey Activity Functionality
+   When User clicks on Inactive Survey menu
+   And User clicks on Inactive Survey Activity submenu 
+   Then user can see Inactive Survey Activity page
+  
    

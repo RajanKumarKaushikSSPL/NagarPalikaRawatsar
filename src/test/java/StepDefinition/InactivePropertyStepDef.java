@@ -50,5 +50,71 @@ public class InactivePropertyStepDef extends BaseClass {
 	    	Assert.assertTrue(false);
 	    }
 	}
+	
+	////////////////////////////////Inactive Property Functionality//////////////////////////////////////////
+	@When("User clicks on Inactive Property submenu")
+	public void user_clicks_on_inactive_property_submenu() throws InterruptedException {
+	    dashboardPg.clickOnInactivePropertySubMenu();
+	    log.info("User clicks on Inactive Property submenu");
+	    Thread.sleep(2000);
+	}
+
+	///////////////////////Inactive DCB Functionality/////////////////////////////////
+	@When("User clicks on Inactive DCB submenu")
+	public void user_clicks_on_inactive_dcb_submenu() throws InterruptedException {
+	    dashboardPg.clickOnInactiveDCBSubMenu();
+	    log.info("User clicks on Inactive DCB submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Inactive Dcb Report page")
+	public void user_can_see_inactive_dcb_report_page() {
+	    if(inactivedcbreportPg.inactiveDCBReportPlainTextDisplayed()) {
+	    	log.info("user can see Inactive Dcb Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Inactive Dcb Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	@When("user clicks on search button of Inactive Dcb Report page")
+	public void user_clicks_on_search_button_of_inactive_dcb_report_page() throws InterruptedException {
+	    inactivedcbreportPg.clickOnSearchBtn();
+	    log.info("user clicks on search button of Inactive Dcb Report page");
+	    Thread.sleep(3000);
+	}
+
+	@Then("user can see report of Inactive Dcb Report page")
+	public void user_can_see_report_of_inactive_dcb_report_page() {
+		if(inactivedcbreportPg.reportPlainTextDisplayed()) {
+	    	log.info("user can see report of Inactive Dcb Report page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see report of Inactive Dcb Report page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+    
+	//////////////////Inactive Property Activity Functionality/////////////////////////////
+	@When("User clicks on Inactive Property Activity submenu")
+	public void user_clicks_on_inactive_property_activity_submenu() throws InterruptedException {
+	    dashboardPg.clickOnInactivePropertyActivitySubMenu();
+	    log.info("User clicks on Inactive Property Activity submenu");
+	    Thread.sleep(2000);
+	}
+
+	@Then("user can see Inactive Prop Activity page")
+	public void user_can_see_inactive_prop_activity_page() {
+	    if(inactivepropactivityPg.inactivePropActivitytPlainTextDisplayed()) {
+	    	log.info("user can see Inactive Prop Activity page");
+	    	Assert.assertTrue(true);
+	    }else {
+	    	log.warn("user can not see Inactive Prop Activity page");
+	    	Assert.assertTrue(false);
+	    }
+	}
+
+	
 
 }
