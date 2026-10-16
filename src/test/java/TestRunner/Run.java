@@ -12,7 +12,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 //features={".//src/test/resources/Features/LoginFeature.feature",".//src/test/resources/Features/DashboardFeature.feature"},
 //features={".//src/test/resources/Features/UDTaxSetUp.feature"},
-//features={".//src/test/resources/Features/InactiveSurveyFeature.feature:27"},		
+//features={".//src/test/resources/Features/CitizenFeature.feature:38"},		
 features=".//src/test/resources/Features/",		
 glue="StepDefinition",
 dryRun=false,

@@ -30,6 +30,7 @@ import PageObject.BulkSurveyNoticePage;
 import PageObject.CashVerificationPage;
 import PageObject.ChequeBounceRptsPage;
 import PageObject.ChequeBouncedCollectionReportPage;
+import PageObject.CitizenPage;
 import PageObject.CounterReportPage;
 import PageObject.DCBReportPage;
 import PageObject.DCBULBWisePage;
@@ -170,6 +171,7 @@ public class BaseClass {
 	public static InactiveDCBReportPage inactivedcbreportPg;
 	public static InactivePropActivityPage inactivepropactivityPg;
 	public static InactiveSurveyActivityPage inactivesurveyactivityPg;
+	public static CitizenPage citizenPg;
 	public static Logger log;
 	public ReadConfig readConfig;
 	

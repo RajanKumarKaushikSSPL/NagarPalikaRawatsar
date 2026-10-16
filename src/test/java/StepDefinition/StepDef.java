@@ -31,6 +31,7 @@ import PageObject.BulkSurveyNoticePage;
 import PageObject.CashVerificationPage;
 import PageObject.ChequeBounceRptsPage;
 import PageObject.ChequeBouncedCollectionReportPage;
+import PageObject.CitizenPage;
 import PageObject.CounterReportPage;
 import PageObject.DCBReportPage;
 import PageObject.DCBULBWisePage;
@@ -373,6 +374,7 @@ case "chrome":
 	    inactivedcbreportPg=new InactiveDCBReportPage(driver);
 	    inactivepropactivityPg=new InactivePropActivityPage(driver);
 	    inactivesurveyactivityPg=new InactiveSurveyActivityPage(driver);
+	    citizenPg=new CitizenPage(driver);
 	    log.info("chrome browser launched");
 	}
 
